@@ -1,0 +1,9498 @@
+{
+ "Root": "\u003croot\u003e",
+ "Nodes": [
+  {
+   "id": 23490,
+   "attrs": {
+    "name": "shouldCheckForUpdate",
+    "label": "shouldCheckForUpdate",
+    "pos": {
+     "name": "main.go",
+     "line": 330
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 3506,
+   "attrs": {
+    "name": "Getenv",
+    "label": "Getenv",
+    "pos": {
+     "name": "env.go",
+     "line": 101
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "key",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 24447,
+   "attrs": {
+    "name": "isTerminal",
+    "label": "isTerminal",
+    "pos": {
+     "name": "main.go",
+     "line": 340
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "f",
+      "type": "*os.File"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 647,
+   "attrs": {
+    "name": "Fd",
+    "label": "(*File).Fd",
+    "pos": {
+     "name": "file_unix.go",
+     "line": 75
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*os.File"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 20459,
+   "attrs": {
+    "name": "IsTerminal",
+    "label": "IsTerminal",
+    "pos": {
+     "name": "isatty_bsd.go",
+     "line": 10
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fd",
+      "type": "uintptr"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "isatty"
+   }
+  },
+  {
+   "id": 21786,
+   "attrs": {
+    "name": "IsCygwinTerminal",
+    "label": "IsCygwinTerminal",
+    "pos": {
+     "name": "isatty_bsd.go",
+     "line": 17
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fd",
+      "type": "uintptr"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "isatty"
+   }
+  },
+  {
+   "id": 24448,
+   "attrs": {
+    "name": "isCI",
+    "label": "isCI",
+    "pos": {
+     "name": "main.go",
+     "line": 345
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22400,
+   "attrs": {
+    "name": "checkForUpdate",
+    "label": "checkForUpdate",
+    "pos": {
+     "name": "main.go",
+     "line": 351
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "currentVersion",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23491,
+   "attrs": {
+    "name": "NewHTTPClient",
+    "label": "NewHTTPClient",
+    "pos": {
+     "name": "http_client.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "opts",
+      "type": "github.com/cli/cli/v2/api.HTTPClientOptions"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 9038,
+   "attrs": {
+    "name": "NewClientFromHTTP",
+    "label": "NewClientFromHTTP",
+    "pos": {
+     "name": "client.go",
+     "line": 29
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "httpClient",
+      "type": "*net/http.Client"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 23492,
+   "attrs": {
+    "name": "StateDir",
+    "label": "StateDir",
+    "pos": {
+     "name": "config.go",
+     "line": 215
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "config"
+   }
+  },
+  {
+   "id": 2563,
+   "attrs": {
+    "name": "Join",
+    "label": "Join",
+    "pos": {
+     "name": "path.go",
+     "line": 224
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "elem",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "filepath"
+   }
+  },
+  {
+   "id": 23493,
+   "attrs": {
+    "name": "CheckForUpdate",
+    "label": "CheckForUpdate",
+    "pos": {
+     "name": "update.go",
+     "line": 33
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "client",
+      "type": "*github.com/cli/cli/v2/api.Client"
+     },
+     {
+      "name": "stateFilePath",
+      "type": "string"
+     },
+     {
+      "name": "repo",
+      "type": "string"
+     },
+     {
+      "name": "currentVersion",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "update"
+   }
+  },
+  {
+   "id": 20308,
+   "attrs": {
+    "name": "mainRun$1",
+    "label": "mainRun$1",
+    "pos": {
+     "name": "main.go",
+     "line": 58
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 33,
+   "attrs": {
+    "name": "mainRun",
+    "label": "mainRun",
+    "pos": {
+     "name": "main.go",
+     "line": 53
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 7711,
+   "attrs": {
+    "name": "IsDebugEnabled",
+    "label": "IsDebugEnabled",
+    "pos": {
+     "name": "utils.go",
+     "line": 10
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "utils"
+   }
+  },
+  {
+   "id": 20309,
+   "attrs": {
+    "name": "New",
+    "label": "New",
+    "pos": {
+     "name": "default.go",
+     "line": 26
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "appVersion",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "factory"
+   }
+  },
+  {
+   "id": 11021,
+   "attrs": {
+    "name": "ColorEnabled",
+    "label": "(*IOStreams).ColorEnabled",
+    "pos": {
+     "name": "iostreams.go",
+     "line": 84
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "*github.com/cli/cli/v2/pkg/iostreams.IOStreams"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "iostreams"
+   }
+  },
+  {
+   "id": 20310,
+   "attrs": {
+    "name": "DisableColors",
+    "label": "DisableColors",
+    "pos": {
+     "name": "ansi.go",
+     "line": 254
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "disable",
+      "type": "bool"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ansi"
+   }
+  },
+  {
+   "id": 20311,
+   "attrs": {
+    "name": "NewCmdRoot",
+    "label": "NewCmdRoot",
+    "pos": {
+     "name": "root.go",
+     "line": 40
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/cli/cli/v2/pkg/cmdutil.Factory"
+     },
+     {
+      "name": "version",
+      "type": "string"
+     },
+     {
+      "name": "buildDate",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "root"
+   }
+  },
+  {
+   "id": 256,
+   "attrs": {
+    "name": "Fprintf",
+    "label": "Fprintf",
+    "pos": {
+     "name": "print.go",
+     "line": 202
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "io.Writer"
+     },
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 20312,
+   "attrs": {
+    "name": "hasCommand",
+    "label": "hasCommand",
+    "pos": {
+     "name": "main.go",
+     "line": 282
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "rootCmd",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 17778,
+   "attrs": {
+    "name": "Traverse",
+    "label": "(*Command).Traverse",
+    "pos": {
+     "name": "command.go",
+     "line": 739
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 20313,
+   "attrs": {
+    "name": "ExpandAlias",
+    "label": "ExpandAlias",
+    "pos": {
+     "name": "expand.go",
+     "line": 19
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "cfg",
+      "type": "github.com/cli/cli/v2/internal/config.Config"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     },
+     {
+      "name": "findShFunc",
+      "type": "func() (string, error)"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "expand"
+   }
+  },
+  {
+   "id": 251,
+   "attrs": {
+    "name": "New",
+    "label": "New",
+    "pos": {
+     "name": "errors.go",
+     "line": 58
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "text",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 20314,
+   "attrs": {
+    "name": "SetArgs",
+    "label": "(*Command).SetArgs",
+    "pos": {
+     "name": "command.go",
+     "line": 268
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "a",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 22449,
+   "attrs": {
+    "name": "mainRun$4",
+    "label": "mainRun$4",
+    "pos": {
+     "name": "main.go",
+     "line": 200
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "cmd",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22450,
+   "attrs": {
+    "name": "IsAuthCheckEnabled",
+    "label": "IsAuthCheckEnabled",
+    "pos": {
+     "name": "auth_check.go",
+     "line": 33
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "cmd",
+      "type": "*github.com/spf13/cobra.Command"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 22451,
+   "attrs": {
+    "name": "authHelp",
+    "label": "authHelp",
+    "pos": {
+     "name": "main.go",
+     "line": 309
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 3578,
+   "attrs": {
+    "name": "Doc",
+    "label": "Doc",
+    "pos": {
+     "name": "heredoc.go",
+     "line": 41
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "raw",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "heredoc"
+   }
+  },
+  {
+   "id": 1382,
+   "attrs": {
+    "name": "Fprint",
+    "label": "Fprint",
+    "pos": {
+     "name": "print.go",
+     "line": 230
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "io.Writer"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 22452,
+   "attrs": {
+    "name": "CheckAuth",
+    "label": "CheckAuth",
+    "pos": {
+     "name": "auth_check.go",
+     "line": 16
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "cfg",
+      "type": "github.com/cli/cli/v2/internal/config.Config"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 17782,
+   "attrs": {
+    "name": "execute",
+    "label": "(*Command).execute",
+    "pos": {
+     "name": "command.go",
+     "line": 823
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "a",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 25200,
+   "attrs": {
+    "name": "executeParentHooks",
+    "label": "executeParentHooks",
+    "pos": {
+     "name": "repo_override.go",
+     "line": 12
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "cmd",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 22447,
+   "attrs": {
+    "name": "mainRun$3",
+    "label": "mainRun$3",
+    "pos": {
+     "name": "main.go",
+     "line": 164
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "cmd",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     },
+     {
+      "name": "toComplete",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 18705,
+   "attrs": {
+    "name": "All",
+    "label": "(*AliasConfig).All",
+    "pos": {
+     "name": "config.go",
+     "line": 146
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "a",
+      "type": "*github.com/cli/cli/v2/internal/config.AliasConfig"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "config"
+   }
+  },
+  {
+   "id": 265,
+   "attrs": {
+    "name": "HasPrefix",
+    "label": "HasPrefix",
+    "pos": {
+     "name": "strings.go",
+     "line": 448
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "prefix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 460,
+   "attrs": {
+    "name": "Sprintf",
+    "label": "Sprintf",
+    "pos": {
+     "name": "print.go",
+     "line": 217
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 22448,
+   "attrs": {
+    "name": "Truncate",
+    "label": "Truncate",
+    "pos": {
+     "name": "text.go",
+     "line": 36
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "maxWidth",
+      "type": "int"
+     },
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "text"
+   }
+  },
+  {
+   "id": 11381,
+   "attrs": {
+    "name": "ParseURL",
+    "label": "ParseURL",
+    "pos": {
+     "name": "url.go",
+     "line": 29
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "rawURL",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "git"
+   }
+  },
+  {
+   "id": 17166,
+   "attrs": {
+    "name": "FromURL",
+    "label": "FromURL",
+    "pos": {
+     "name": "repo.go",
+     "line": 61
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "u",
+      "type": "*net/url.URL"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ghrepo"
+   }
+  },
+  {
+   "id": 20398,
+   "attrs": {
+    "name": "FullName",
+    "label": "FullName",
+    "pos": {
+     "name": "repo.go",
+     "line": 35
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "r",
+      "type": "github.com/cli/cli/v2/internal/ghrepo.Interface"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ghrepo"
+   }
+  },
+  {
+   "id": 29917,
+   "attrs": {
+    "name": "Aliases",
+    "label": "(*cfg).Aliases",
+    "pos": {
+     "name": "config.go",
+     "line": 104
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/cli/cli/v2/internal/config.cfg"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "config"
+   }
+  },
+  {
+   "id": 9028,
+   "attrs": {
+    "name": "List",
+    "label": "(*Manager).List",
+    "pos": {
+     "name": "manager.go",
+     "line": 121
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "m",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/extension.Manager"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "extension"
+   }
+  },
+  {
+   "id": 9016,
+   "attrs": {
+    "name": "Name",
+    "label": "(*Extension).Name",
+    "pos": {
+     "name": "extension.go",
+     "line": 27
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/extension.Extension"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "extension"
+   }
+  },
+  {
+   "id": 30380,
+   "attrs": {
+    "name": "IsLocal",
+    "label": "(*Extension).IsLocal",
+    "pos": {
+     "name": "extension.go",
+     "line": 39
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/extension.Extension"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "extension"
+   }
+  },
+  {
+   "id": 30381,
+   "attrs": {
+    "name": "URL",
+    "label": "(*Extension).URL",
+    "pos": {
+     "name": "extension.go",
+     "line": 35
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/extension.Extension"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "extension"
+   }
+  },
+  {
+   "id": 17901,
+   "attrs": {
+    "name": "getCompletions",
+    "label": "(*Command).getCompletions",
+    "pos": {
+     "name": "completions.go",
+     "line": 245
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 17772,
+   "attrs": {
+    "name": "ExecuteC",
+    "label": "(*Command).ExecuteC",
+    "pos": {
+     "name": "command.go",
+     "line": 981
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 12591,
+   "attrs": {
+    "name": "LookPath",
+    "label": "LookPath",
+    "pos": {
+     "name": "lookpath_1.18.go",
+     "line": 8
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "file",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "safeexec"
+   }
+  },
+  {
+   "id": 12592,
+   "attrs": {
+    "name": "Command",
+    "label": "Command",
+    "pos": {
+     "name": "exec.go",
+     "line": 169
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "arg",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "exec"
+   }
+  },
+  {
+   "id": 765,
+   "attrs": {
+    "name": "As",
+    "label": "As",
+    "pos": {
+     "name": "wrap.go",
+     "line": 78
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "error"
+     },
+     {
+      "name": "target",
+      "type": "any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 768,
+   "attrs": {
+    "name": "ExitCode",
+    "label": "(*ProcessState).ExitCode",
+    "pos": {
+     "name": "exec_posix.go",
+     "line": 130
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "*os.ProcessState"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 20315,
+   "attrs": {
+    "name": "HasFailed",
+    "label": "HasFailed",
+    "pos": {
+     "name": "help.go",
+     "line": 49
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "root"
+   }
+  },
+  {
+   "id": 20316,
+   "attrs": {
+    "name": "IsUserCancellation",
+    "label": "IsUserCancellation",
+    "pos": {
+     "name": "errors.go",
+     "line": 40
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 767,
+   "attrs": {
+    "name": "Is",
+    "label": "Is",
+    "pos": {
+     "name": "wrap.go",
+     "line": 40
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "error"
+     },
+     {
+      "name": "target",
+      "type": "error"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 15683,
+   "attrs": {
+    "name": "IsStdoutTTY",
+    "label": "(*IOStreams).IsStdoutTTY",
+    "pos": {
+     "name": "iostreams.go",
+     "line": 157
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "*github.com/cli/cli/v2/pkg/iostreams.IOStreams"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "iostreams"
+   }
+  },
+  {
+   "id": 20317,
+   "attrs": {
+    "name": "printError",
+    "label": "printError",
+    "pos": {
+     "name": "main.go",
+     "line": 287
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "out",
+      "type": "io.Writer"
+     },
+     {
+      "name": "err",
+      "type": "error"
+     },
+     {
+      "name": "cmd",
+      "type": "*github.com/spf13/cobra.Command"
+     },
+     {
+      "name": "debug",
+      "type": "bool"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 542,
+   "attrs": {
+    "name": "Fprintln",
+    "label": "Fprintln",
+    "pos": {
+     "name": "print.go",
+     "line": 262
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "io.Writer"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 6610,
+   "attrs": {
+    "name": "HasSuffix",
+    "label": "HasSuffix",
+    "pos": {
+     "name": "strings.go",
+     "line": 453
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "suffix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 17784,
+   "attrs": {
+    "name": "UsageString",
+    "label": "(*Command).UsageString",
+    "pos": {
+     "name": "command.go",
+     "line": 466
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*github.com/spf13/cobra.Command"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cobra"
+   }
+  },
+  {
+   "id": 160,
+   "attrs": {
+    "name": "Error",
+    "label": "(*objectKeyNotStringError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 58
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.objectKeyNotStringError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 176,
+   "attrs": {
+    "name": "Error",
+    "label": "(Errno).Error",
+    "pos": {
+     "name": "syscall_unix.go",
+     "line": 117
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "syscall.Errno"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "syscall"
+   }
+  },
+  {
+   "id": 223,
+   "attrs": {
+    "name": "Error",
+    "label": "(*joinTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 175
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.joinTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 27747,
+   "attrs": {
+    "name": "Error",
+    "label": "(*unsupportedTEError).Error",
+    "pos": {
+     "name": "transfer.go",
+     "line": 612
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "uste",
+      "type": "*net/http.unsupportedTEError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 1134,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ParseError).Error",
+    "pos": {
+     "name": "format.go",
+     "line": 826
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*time.ParseError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 27784,
+   "attrs": {
+    "name": "Error",
+    "label": "(*EventError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 66
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ev",
+      "type": "*github.com/gdamore/tcell/v2.EventError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "tcell"
+   }
+  },
+  {
+   "id": 1369,
+   "attrs": {
+    "name": "Error",
+    "label": "(*lengthMismatchError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 91
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.lengthMismatchError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 27806,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ValueError).Error",
+    "pos": {
+     "name": "value.go",
+     "line": 166
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*reflect.ValueError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "reflect"
+   }
+  },
+  {
+   "id": 1689,
+   "attrs": {
+    "name": "Error",
+    "label": "(errors).Error",
+    "pos": {
+     "name": "graphql.go",
+     "line": 124
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/shurcooL-graphql.errors"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "graphql"
+   }
+  },
+  {
+   "id": 1728,
+   "attrs": {
+    "name": "Error",
+    "label": "(*stringIndexNotNumberError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 74
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.stringIndexNotNumberError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 1834,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ErrUpdatingPortVisibility).Error",
+    "pos": {
+     "name": "ports.go",
+     "line": 254
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/codespace.ErrUpdatingPortVisibility"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "codespace"
+   }
+  },
+  {
+   "id": 1966,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "status.go",
+     "line": 149
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*google.golang.org/grpc/internal/status.Error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "status"
+   }
+  },
+  {
+   "id": 14743,
+   "attrs": {
+    "name": "Error",
+    "label": "(ValueError).Error",
+    "pos": {
+     "name": "parse.go",
+     "line": 64
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/text/internal/language.ValueError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "language"
+   }
+  },
+  {
+   "id": 2255,
+   "attrs": {
+    "name": "Error",
+    "label": "(CmdError).Error",
+    "pos": {
+     "name": "run.go",
+     "line": 79
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/cli/v2/internal/run.CmdError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "run"
+   }
+  },
+  {
+   "id": 27877,
+   "attrs": {
+    "name": "Error",
+    "label": "(*breakError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 265
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.breakError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 16578,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "parser.go",
+     "line": 59
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/dlclark/regexp2/syntax.Error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "syntax"
+   }
+  },
+  {
+   "id": 2818,
+   "attrs": {
+    "name": "Error",
+    "label": "(*flattenDepthError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 167
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.flattenDepthError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 2861,
+   "attrs": {
+    "name": "Error",
+    "label": "(StreamError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 86
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/net/http2.StreamError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "http2"
+   }
+  },
+  {
+   "id": 2922,
+   "attrs": {
+    "name": "Error",
+    "label": "(http2ConnectionError).Error",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 1223
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/http.http2ConnectionError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 11426,
+   "attrs": {
+    "name": "Error",
+    "label": "(SystemRootsError).Error",
+    "pos": {
+     "name": "verify.go",
+     "line": 159
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "se",
+      "type": "crypto/x509.SystemRootsError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "x509"
+   }
+  },
+  {
+   "id": 27963,
+   "attrs": {
+    "name": "Error",
+    "label": "(*variableNotFoundError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 248
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.variableNotFoundError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 10250,
+   "attrs": {
+    "name": "Error",
+    "label": "(ErrNaN).Error",
+    "pos": {
+     "name": "float.go",
+     "line": 81
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "math/big.ErrNaN"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "big"
+   }
+  },
+  {
+   "id": 3669,
+   "attrs": {
+    "name": "Error",
+    "label": "(httpError).Error",
+    "pos": {
+     "name": "searcher.go",
+     "line": 183
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/cli/cli/v2/pkg/search.httpError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "search"
+   }
+  },
+  {
+   "id": 4111,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "exec.go",
+     "line": 47
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*os/exec.Error"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "exec"
+   }
+  },
+  {
+   "id": 20178,
+   "attrs": {
+    "name": "Error",
+    "label": "(*expectedObjectError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 18
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.expectedObjectError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 4394,
+   "attrs": {
+    "name": "Error",
+    "label": "(*containsTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 151
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.containsTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 4606,
+   "attrs": {
+    "name": "Error",
+    "label": "(http2StreamError).Error",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 1244
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/http.http2StreamError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 4762,
+   "attrs": {
+    "name": "Error",
+    "label": "(CorruptInputError).Error",
+    "pos": {
+     "name": "base64.go",
+     "line": 274
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "encoding/base64.CorruptInputError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "base64"
+   }
+  },
+  {
+   "id": 28200,
+   "attrs": {
+    "name": "Error",
+    "label": "(*SyntaxError).Error",
+    "pos": {
+     "name": "scanner.go",
+     "line": 50
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.SyntaxError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 6019,
+   "attrs": {
+    "name": "Error",
+    "label": "(CertificateInvalidError).Error",
+    "pos": {
+     "name": "verify.go",
+     "line": 67
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "crypto/x509.CertificateInvalidError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "x509"
+   }
+  },
+  {
+   "id": 28232,
+   "attrs": {
+    "name": "Error",
+    "label": "(*DeadlineExceededError).Error",
+    "pos": {
+     "name": "fd.go",
+     "line": 60
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*internal/poll.DeadlineExceededError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "poll"
+   }
+  },
+  {
+   "id": 2612,
+   "attrs": {
+    "name": "Error",
+    "label": "(GQLError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 61
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "gr",
+      "type": "github.com/cli/go-gh/pkg/api.GQLError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 17460,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ExitError).Error",
+    "pos": {
+     "name": "exec.go",
+     "line": 480
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*os/exec.ExitError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "exec"
+   }
+  },
+  {
+   "id": 28248,
+   "attrs": {
+    "name": "Error",
+    "label": "(*LinkError).Error",
+    "pos": {
+     "name": "file.go",
+     "line": 104
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*os.LinkError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 5736,
+   "attrs": {
+    "name": "Error",
+    "label": "(UnknownAuthorityError).Error",
+    "pos": {
+     "name": "verify.go",
+     "line": 138
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "crypto/x509.UnknownAuthorityError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "x509"
+   }
+  },
+  {
+   "id": 6049,
+   "attrs": {
+    "name": "Error",
+    "label": "(*invalidPathError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 285
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.invalidPathError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 2804,
+   "attrs": {
+    "name": "Error",
+    "label": "(alert).Error",
+    "pos": {
+     "name": "alert.go",
+     "line": 97
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "crypto/tls.alert"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "tls"
+   }
+  },
+  {
+   "id": 6285,
+   "attrs": {
+    "name": "Error",
+    "label": "(*NumError).Error",
+    "pos": {
+     "name": "atoi.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*strconv.NumError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strconv"
+   }
+  },
+  {
+   "id": 29994,
+   "attrs": {
+    "name": "Error",
+    "label": "(*variableNameError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 256
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.variableNameError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 14237,
+   "attrs": {
+    "name": "Error",
+    "label": "(HTTPError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 38
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/cli/go-gh/pkg/api.HTTPError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 6992,
+   "attrs": {
+    "name": "Error",
+    "label": "(*funcNotFoundError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 105
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.funcNotFoundError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7064,
+   "attrs": {
+    "name": "Error",
+    "label": "(HostnameError).Error",
+    "pos": {
+     "name": "verify.go",
+     "line": 98
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "h",
+      "type": "crypto/x509.HostnameError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "x509"
+   }
+  },
+  {
+   "id": 7210,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ParseError).Error",
+    "pos": {
+     "name": "reader.go",
+     "line": 73
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/csv.ParseError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "csv"
+   }
+  },
+  {
+   "id": 7474,
+   "attrs": {
+    "name": "Error",
+    "label": "(*InvalidUnmarshalError).Error",
+    "pos": {
+     "name": "decode.go",
+     "line": 159
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.InvalidUnmarshalError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 7599,
+   "attrs": {
+    "name": "Error",
+    "label": "(*expectedStartEndError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 82
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.expectedStartEndError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7619,
+   "attrs": {
+    "name": "Error",
+    "label": "(*GitError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ge",
+      "type": "*github.com/cli/cli/v2/git.GitError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "git"
+   }
+  },
+  {
+   "id": 7654,
+   "attrs": {
+    "name": "Error",
+    "label": "(*parseError).Error",
+    "pos": {
+     "name": "lexer.go",
+     "line": 514
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.parseError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7662,
+   "attrs": {
+    "name": "Error",
+    "label": "(*binopTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 193
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.binopTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7687,
+   "attrs": {
+    "name": "Error",
+    "label": "(*exitCodeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 124
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.exitCodeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7707,
+   "attrs": {
+    "name": "Error",
+    "label": "(runeError).Error",
+    "pos": {
+     "name": "idna10.0.0.go",
+     "line": 331
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "vendor/golang.org/x/net/idna.runeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "idna"
+   }
+  },
+  {
+   "id": 7817,
+   "attrs": {
+    "name": "Error",
+    "label": "(*zeroDivisionError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 201
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.zeroDivisionError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 29775,
+   "attrs": {
+    "name": "Error",
+    "label": "(*inputNotAllowedError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 97
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "arg0",
+      "type": "*github.com/itchyny/gojq.inputNotAllowedError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 17227,
+   "attrs": {
+    "name": "Error",
+    "label": "(*CloseError).Error",
+    "pos": {
+     "name": "conn.go",
+     "line": 112
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/gorilla/websocket.CloseError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 10775,
+   "attrs": {
+    "name": "Error",
+    "label": "(UnknownNetworkError).Error",
+    "pos": {
+     "name": "net.go",
+     "line": 570
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net.UnknownNetworkError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 8039,
+   "attrs": {
+    "name": "Error",
+    "label": "(labelError).Error",
+    "pos": {
+     "name": "idna10.0.0.go",
+     "line": 324
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "vendor/golang.org/x/net/idna.labelError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "idna"
+   }
+  },
+  {
+   "id": 8198,
+   "attrs": {
+    "name": "Error",
+    "label": "(http2GoAwayError).Error",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 8727
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/http.http2GoAwayError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 8331,
+   "attrs": {
+    "name": "Error",
+    "label": "(*zeroModuloError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 209
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.zeroModuloError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 8594,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "jsonrpc2.go",
+     "line": 213
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/sourcegraph/jsonrpc2.Error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "jsonrpc2"
+   }
+  },
+  {
+   "id": 8339,
+   "attrs": {
+    "name": "Error",
+    "label": "(parseFormatError).Error",
+    "pos": {
+     "name": "parse.go",
+     "line": 333
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/itchyny/timefmt-go.parseFormatError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "timefmt"
+   }
+  },
+  {
+   "id": 28640,
+   "attrs": {
+    "name": "Error",
+    "label": "(*tryEndError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 277
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.tryEndError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 8750,
+   "attrs": {
+    "name": "Error",
+    "label": "(http2connError).Error",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 1272
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/http.http2connError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 28672,
+   "attrs": {
+    "name": "Error",
+    "label": "(*http2httpError).Error",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 3531
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net/http.http2httpError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 28697,
+   "attrs": {
+    "name": "Error",
+    "label": "(*errorString).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 67
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*errors.errorString"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 28698,
+   "attrs": {
+    "name": "Error",
+    "label": "(*expectedVariableError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 240
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.expectedVariableError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 28701,
+   "attrs": {
+    "name": "Error",
+    "label": "(*FlagError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 26
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fe",
+      "type": "*github.com/cli/cli/v2/pkg/cmdutil.FlagError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 9484,
+   "attrs": {
+    "name": "Error",
+    "label": "(*expectedStringError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 34
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.expectedStringError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 8899,
+   "attrs": {
+    "name": "Error",
+    "label": "(OSStatus).Error",
+    "pos": {
+     "name": "security.go",
+     "line": 59
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "crypto/x509/internal/macos.OSStatus"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "macOS"
+   }
+  },
+  {
+   "id": 28780,
+   "attrs": {
+    "name": "Error",
+    "label": "(*httpError).Error",
+    "pos": {
+     "name": "http2.go",
+     "line": 322
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*golang.org/x/net/http2.httpError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "http2"
+   }
+  },
+  {
+   "id": 10053,
+   "attrs": {
+    "name": "Error",
+    "label": "(*formatRowError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 226
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.formatRowError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 28919,
+   "attrs": {
+    "name": "Error",
+    "label": "(*httpError).Error",
+    "pos": {
+     "name": "transport.go",
+     "line": 2509
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net/http.httpError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 20181,
+   "attrs": {
+    "name": "Error",
+    "label": "(deadlineExceededError).Error",
+    "pos": {
+     "name": "context.go",
+     "line": 165
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "arg0",
+      "type": "context.deadlineExceededError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 28944,
+   "attrs": {
+    "name": "Error",
+    "label": "(*tooManyVariableValuesError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 232
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.tooManyVariableValuesError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 28950,
+   "attrs": {
+    "name": "Error",
+    "label": "(*RequiredNotSetError).Error",
+    "pos": {
+     "name": "proto.go",
+     "line": 111
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/golang/protobuf/proto.RequiredNotSetError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "proto"
+   }
+  },
+  {
+   "id": 2398,
+   "attrs": {
+    "name": "Error",
+    "label": "(expectedFormatError).Error",
+    "pos": {
+     "name": "parse.go",
+     "line": 339
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/itchyny/timefmt-go.expectedFormatError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "timefmt"
+   }
+  },
+  {
+   "id": 5291,
+   "attrs": {
+    "name": "Error",
+    "label": "(errNetClosing).Error",
+    "pos": {
+     "name": "fd.go",
+     "line": 24
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "internal/poll.errNetClosing"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "poll"
+   }
+  },
+  {
+   "id": 12613,
+   "attrs": {
+    "name": "Error",
+    "label": "(UnhandledCriticalExtension).Error",
+    "pos": {
+     "name": "x509.go",
+     "line": 893
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "h",
+      "type": "crypto/x509.UnhandledCriticalExtension"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "x509"
+   }
+  },
+  {
+   "id": 28971,
+   "attrs": {
+    "name": "Error",
+    "label": "(*NotInstalled).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 16
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/cli/cli/v2/git.NotInstalled"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "git"
+   }
+  },
+  {
+   "id": 10586,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ValueError).Error",
+    "pos": {
+     "name": "value.go",
+     "line": 161
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*internal/reflectlite.ValueError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "reflectlite"
+   }
+  },
+  {
+   "id": 10598,
+   "attrs": {
+    "name": "Error",
+    "label": "(*disconnectMsg).Error",
+    "pos": {
+     "name": "messages.go",
+     "line": 46
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "d",
+      "type": "*golang.org/x/crypto/ssh.disconnectMsg"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ssh"
+   }
+  },
+  {
+   "id": 5814,
+   "attrs": {
+    "name": "Error",
+    "label": "(InvalidHostError).Error",
+    "pos": {
+     "name": "url.go",
+     "line": 91
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/url.InvalidHostError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "url"
+   }
+  },
+  {
+   "id": 28986,
+   "attrs": {
+    "name": "Error",
+    "label": "(*OpError).Error",
+    "pos": {
+     "name": "net.go",
+     "line": 468
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net.OpError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 10853,
+   "attrs": {
+    "name": "Error",
+    "label": "(*invalidPathIterError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 293
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.invalidPathIterError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 29010,
+   "attrs": {
+    "name": "Error",
+    "label": "(*prefixError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 36
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*google.golang.org/protobuf/internal/errors.prefixError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 11111,
+   "attrs": {
+    "name": "Error",
+    "label": "(*arrayIndexNotNumberError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 66
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.arrayIndexNotNumberError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 29080,
+   "attrs": {
+    "name": "Error",
+    "label": "(*wrapError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 37
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*fmt.wrapError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 11583,
+   "attrs": {
+    "name": "Error",
+    "label": "(*funcTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 114
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.funcTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 533,
+   "attrs": {
+    "name": "Error",
+    "label": "(NoResultsError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 61
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/cli/v2/pkg/cmdutil.NoResultsError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 11172,
+   "attrs": {
+    "name": "Error",
+    "label": "(ConnectionError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 67
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/net/http2.ConnectionError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "http2"
+   }
+  },
+  {
+   "id": 12052,
+   "attrs": {
+    "name": "Error",
+    "label": "(KeySizeError).Error",
+    "pos": {
+     "name": "cipher.go",
+     "line": 24
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "k",
+      "type": "crypto/aes.KeySizeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "aes"
+   }
+  },
+  {
+   "id": 12077,
+   "attrs": {
+    "name": "Error",
+    "label": "(*UnsupportedTypeError).Error",
+    "pos": {
+     "name": "encode.go",
+     "line": 235
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.UnsupportedTypeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 12552,
+   "attrs": {
+    "name": "Error",
+    "label": "(*iteratorError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 42
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.iteratorError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 12553,
+   "attrs": {
+    "name": "Error",
+    "label": "(*unaryTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 184
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.unaryTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 3988,
+   "attrs": {
+    "name": "Error",
+    "label": "(RecordHeaderError).Error",
+    "pos": {
+     "name": "conn.go",
+     "line": 572
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "crypto/tls.RecordHeaderError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "tls"
+   }
+  },
+  {
+   "id": 9208,
+   "attrs": {
+    "name": "Error",
+    "label": "(KeySizeError).Error",
+    "pos": {
+     "name": "cipher.go",
+     "line": 19
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "k",
+      "type": "crypto/des.KeySizeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "des"
+   }
+  },
+  {
+   "id": 1418,
+   "attrs": {
+    "name": "Error",
+    "label": "(CorruptInputError).Error",
+    "pos": {
+     "name": "inflate.go",
+     "line": 35
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "compress/flate.CorruptInputError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "flate"
+   }
+  },
+  {
+   "id": 29250,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "multierror.go",
+     "line": 15
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/hashicorp/go-multierror.Error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "multierror"
+   }
+  },
+  {
+   "id": 29254,
+   "attrs": {
+    "name": "Error",
+    "label": "(*AddrError).Error",
+    "pos": {
+     "name": "net.go",
+     "line": 554
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net.AddrError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 14250,
+   "attrs": {
+    "name": "Error",
+    "label": "(*UnmarshalTypeError).Error",
+    "pos": {
+     "name": "decode.go",
+     "line": 132
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.UnmarshalTypeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 14268,
+   "attrs": {
+    "name": "Error",
+    "label": "(NewStreamError).Error",
+    "pos": {
+     "name": "http2_client.go",
+     "line": 648
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "google.golang.org/grpc/internal/transport.NewStreamError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "transport"
+   }
+  },
+  {
+   "id": 8200,
+   "attrs": {
+    "name": "Error",
+    "label": "(ConnectionError).Error",
+    "pos": {
+     "name": "transport.go",
+     "line": 726
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "google.golang.org/grpc/internal/transport.ConnectionError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "transport"
+   }
+  },
+  {
+   "id": 10123,
+   "attrs": {
+    "name": "Error",
+    "label": "(EscapeError).Error",
+    "pos": {
+     "name": "url.go",
+     "line": 85
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "net/url.EscapeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "url"
+   }
+  },
+  {
+   "id": 10111,
+   "attrs": {
+    "name": "Error",
+    "label": "(parseZFormatError).Error",
+    "pos": {
+     "name": "parse.go",
+     "line": 345
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/itchyny/timefmt-go.parseZFormatError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "timefmt"
+   }
+  },
+  {
+   "id": 29390,
+   "attrs": {
+    "name": "Error",
+    "label": "(*netError).Error",
+    "pos": {
+     "name": "conn.go",
+     "line": 99
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*github.com/gorilla/websocket.netError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 15932,
+   "attrs": {
+    "name": "Error",
+    "label": "(ExecError).Error",
+    "pos": {
+     "name": "exec.go",
+     "line": 120
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "text/template.ExecError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "template"
+   }
+  },
+  {
+   "id": 15068,
+   "attrs": {
+    "name": "Error",
+    "label": "(*hasKeyTypeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 159
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.hasKeyTypeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 29491,
+   "attrs": {
+    "name": "Error",
+    "label": "(*permanentError).Error",
+    "pos": {
+     "name": "conn.go",
+     "line": 185
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*crypto/tls.permanentError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "tls"
+   }
+  },
+  {
+   "id": 6736,
+   "attrs": {
+    "name": "Error",
+    "label": "(cbcError).Error",
+    "pos": {
+     "name": "cipher.go",
+     "line": 486
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/crypto/ssh.cbcError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ssh"
+   }
+  },
+  {
+   "id": 17684,
+   "attrs": {
+    "name": "Error",
+    "label": "(InternalError).Error",
+    "pos": {
+     "name": "inflate.go",
+     "line": 42
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "compress/flate.InternalError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "flate"
+   }
+  },
+  {
+   "id": 15370,
+   "attrs": {
+    "name": "Error",
+    "label": "(labelError).Error",
+    "pos": {
+     "name": "idna10.0.0.go",
+     "line": 324
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/net/idna.labelError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "idna"
+   }
+  },
+  {
+   "id": 15407,
+   "attrs": {
+    "name": "Error",
+    "label": "(*getpathError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 301
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.getpathError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 15416,
+   "attrs": {
+    "name": "Error",
+    "label": "(*arrayIndexTooLargeError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 50
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.arrayIndexTooLargeError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 15630,
+   "attrs": {
+    "name": "Error",
+    "label": "(GoAwayError).Error",
+    "pos": {
+     "name": "transport.go",
+     "line": 2049
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/net/http2.GoAwayError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "http2"
+   }
+  },
+  {
+   "id": 1682,
+   "attrs": {
+    "name": "Error",
+    "label": "(Error).Error",
+    "pos": {
+     "name": "form.go",
+     "line": 51
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/oauth/api.Error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 15674,
+   "attrs": {
+    "name": "Error",
+    "label": "(*Error).Error",
+    "pos": {
+     "name": "url.go",
+     "line": 29
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net/url.Error"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "url"
+   }
+  },
+  {
+   "id": 29580,
+   "attrs": {
+    "name": "Error",
+    "label": "(*SyscallError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 56
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*os.SyscallError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 15890,
+   "attrs": {
+    "name": "Error",
+    "label": "(KeyNotFoundError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/go-gh/pkg/config.KeyNotFoundError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "config"
+   }
+  },
+  {
+   "id": 15962,
+   "attrs": {
+    "name": "Error",
+    "label": "(connError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 114
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "golang.org/x/net/http2.connError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "http2"
+   }
+  },
+  {
+   "id": 16198,
+   "attrs": {
+    "name": "Error",
+    "label": "(*MarshalerError).Error",
+    "pos": {
+     "name": "encode.go",
+     "line": 271
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.MarshalerError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 29706,
+   "attrs": {
+    "name": "Error",
+    "label": "(*formatNotFoundError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 217
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.formatNotFoundError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 7591,
+   "attrs": {
+    "name": "Error",
+    "label": "(InvalidConfigFileError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 14
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "github.com/cli/go-gh/pkg/config.InvalidConfigFileError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "config"
+   }
+  },
+  {
+   "id": 17426,
+   "attrs": {
+    "name": "Error",
+    "label": "(errFieldNotMatch).Error",
+    "pos": {
+     "name": "write.go",
+     "line": 126
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/AlecAivazis/survey/v2/core.errFieldNotMatch"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "core"
+   }
+  },
+  {
+   "id": 30195,
+   "attrs": {
+    "name": "Error",
+    "label": "(*PathError).Error",
+    "pos": {
+     "name": "fs.go",
+     "line": 249
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*io/fs.PathError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fs"
+   }
+  },
+  {
+   "id": 29855,
+   "attrs": {
+    "name": "Error",
+    "label": "(*UnsupportedValueError).Error",
+    "pos": {
+     "name": "encode.go",
+     "line": 246
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*encoding/json.UnsupportedValueError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "json"
+   }
+  },
+  {
+   "id": 5699,
+   "attrs": {
+    "name": "Error",
+    "label": "(KeySizeError).Error",
+    "pos": {
+     "name": "rc4.go",
+     "line": 25
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "k",
+      "type": "crypto/rc4.KeySizeError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "rc4"
+   }
+  },
+  {
+   "id": 19080,
+   "attrs": {
+    "name": "Error",
+    "label": "(errInvalidUTF8).Error",
+    "pos": {
+     "name": "codec_field.go",
+     "line": 22
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "arg0",
+      "type": "google.golang.org/protobuf/internal/impl.errInvalidUTF8"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "impl"
+   }
+  },
+  {
+   "id": 17436,
+   "attrs": {
+    "name": "Error",
+    "label": "(*expectedArrayError).Error",
+    "pos": {
+     "name": "error.go",
+     "line": 26
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*github.com/itchyny/gojq.expectedArrayError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "gojq"
+   }
+  },
+  {
+   "id": 29941,
+   "attrs": {
+    "name": "Error",
+    "label": "(*ProtocolError).Error",
+    "pos": {
+     "name": "request.go",
+     "line": 49
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "pe",
+      "type": "*net/http.ProtocolError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 30138,
+   "attrs": {
+    "name": "Error",
+    "label": "(*timeoutError).Error",
+    "pos": {
+     "name": "net.go",
+     "line": 591
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*net.timeoutError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 15057,
+   "attrs": {
+    "name": "Error",
+    "label": "(ProtocolError).Error",
+    "pos": {
+     "name": "textproto.go",
+     "line": 49
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "net/textproto.ProtocolError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "textproto"
+   }
+  },
+  {
+   "id": 3502,
+   "attrs": {
+    "name": "Contains",
+    "label": "Contains",
+    "pos": {
+     "name": "strings.go",
+     "line": 61
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "substr",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 10701,
+   "attrs": {
+    "name": "SSOURL",
+    "label": "SSOURL",
+    "pos": {
+     "name": "default.go",
+     "line": 205
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "factory"
+   }
+  },
+  {
+   "id": 17240,
+   "attrs": {
+    "name": "ScopesSuggestion",
+    "label": "(HTTPError).ScopesSuggestion",
+    "pos": {
+     "name": "client.go",
+     "line": 51
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "github.com/cli/cli/v2/api.HTTPError"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "api"
+   }
+  },
+  {
+   "id": 18536,
+   "attrs": {
+    "name": "Executable",
+    "label": "(*Factory).Executable",
+    "pos": {
+     "name": "factory.go",
+     "line": 36
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/cli/cli/v2/pkg/cmdutil.Factory"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdutil"
+   }
+  },
+  {
+   "id": 20318,
+   "attrs": {
+    "name": "isUnderHomebrew",
+    "label": "isUnderHomebrew",
+    "pos": {
+     "name": "main.go",
+     "line": 373
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ghBinary",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 6630,
+   "attrs": {
+    "name": "Output",
+    "label": "(*Cmd).Output",
+    "pos": {
+     "name": "exec.go",
+     "line": 537
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*os/exec.Cmd"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "exec"
+   }
+  },
+  {
+   "id": 345,
+   "attrs": {
+    "name": "TrimSpace",
+    "label": "TrimSpace",
+    "pos": {
+     "name": "strings.go",
+     "line": 940
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 20319,
+   "attrs": {
+    "name": "Color",
+    "label": "Color",
+    "pos": {
+     "name": "ansi.go",
+     "line": 223
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "style",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ansi"
+   }
+  },
+  {
+   "id": 513,
+   "attrs": {
+    "name": "TrimPrefix",
+    "label": "TrimPrefix",
+    "pos": {
+     "name": "strings.go",
+     "line": 975
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "prefix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 20320,
+   "attrs": {
+    "name": "isRecentRelease",
+    "label": "isRecentRelease",
+    "pos": {
+     "name": "main.go",
+     "line": 368
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "publishedAt",
+      "type": "time.Time"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 450,
+   "attrs": {
+    "name": "IsZero",
+    "label": "(Time).IsZero",
+    "pos": {
+     "name": "time.go",
+     "line": 432
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "t",
+      "type": "time.Time"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 452,
+   "attrs": {
+    "name": "Since",
+    "label": "Since",
+    "pos": {
+     "name": "time.go",
+     "line": 874
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "t",
+      "type": "time.Time"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 24456,
+   "attrs": {
+    "name": "configFunc$1",
+    "label": "configFunc$1",
+    "pos": {
+     "name": "default.go",
+     "line": 139
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "factory"
+   }
+  },
+  {
+   "id": 30648,
+   "attrs": {
+    "name": "init$1",
+    "label": "init$1",
+    "pos": {
+     "name": "run.go",
+     "line": 24
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "cmd",
+      "type": "*os/exec.Cmd"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "run"
+   }
+  },
+  {
+   "id": 7714,
+   "attrs": {
+    "name": "Run",
+    "label": "(cmdWithStderr).Run",
+    "pos": {
+     "name": "run.go",
+     "line": 52
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "github.com/cli/cli/v2/internal/run.cmdWithStderr"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "run"
+   }
+  },
+  {
+   "id": 9014,
+   "attrs": {
+    "name": "Dispatch",
+    "label": "(*Manager).Dispatch",
+    "pos": {
+     "name": "manager.go",
+     "line": 76
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "m",
+      "type": "*github.com/cli/cli/v2/pkg/cmd/extension.Manager"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     },
+     {
+      "name": "stdin",
+      "type": "io.Reader"
+     },
+     {
+      "name": "stdout",
+      "type": "io.Writer"
+     },
+     {
+      "name": "stderr",
+      "type": "io.Writer"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "extension"
+   }
+  },
+  {
+   "id": 32,
+   "attrs": {
+    "name": "main",
+    "label": "main",
+    "pos": {
+     "name": "main.go",
+     "line": 48
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 34,
+   "attrs": {
+    "name": "Exit",
+    "label": "Exit",
+    "pos": {
+     "name": "proc.go",
+     "line": 62
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "code",
+      "type": "int"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 22411,
+   "attrs": {
+    "name": "mainRun$2",
+    "label": "mainRun$2",
+    "pos": {
+     "name": "main.go",
+     "line": 72
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "style",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 15684,
+   "attrs": {
+    "name": "ColorSupport256",
+    "label": "(*IOStreams).ColorSupport256",
+    "pos": {
+     "name": "iostreams.go",
+     "line": 91
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "*github.com/cli/cli/v2/pkg/iostreams.IOStreams"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "iostreams"
+   }
+  },
+  {
+   "id": 22218,
+   "attrs": {
+    "name": "ColorCode",
+    "label": "ColorCode",
+    "pos": {
+     "name": "ansi.go",
+     "line": 131
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "style",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "ansi"
+   }
+  }
+ ],
+ "Edges": [
+  {
+   "from": 20317,
+   "to": 20178,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 533,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29994,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28200,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 11021,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 67
+    }
+   }
+  },
+  {
+   "from": 22449,
+   "to": 22450,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 202
+    }
+   }
+  },
+  {
+   "from": 22449,
+   "to": 1382,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 203
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 27784,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 4606,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28698,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28919,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10586,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 251,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 199
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 27963,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29491,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15674,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 4111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10598,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 11172,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 14268,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 18705,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 167
+    }
+   }
+  },
+  {
+   "from": 20320,
+   "to": 452,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 369
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28701,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17684,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 23491,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 355
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2804,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2398,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12077,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1834,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10123,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 24456,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 93
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 9014,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 150
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 27806,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 12552,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 5699,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2612,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2804,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20311,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 91
+    }
+   }
+  },
+  {
+   "from": 17782,
+   "to": 22449,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "command.go",
+     "line": 891
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1134,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29994,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8200,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15370,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 30138,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 6736,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20310,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 69
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8899,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 3669,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8339,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7619,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1682,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 30648,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 135
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28232,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7599,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28640,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28780,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12052,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17227,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 9028,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 179
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20314,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 210
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20316,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 217
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 27877,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29491,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 19080,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 23492,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 364
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8331,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 20181,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 5814,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29390,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29855,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2922,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28971,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17684,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 27877,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10853,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29706,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22411,
+   "to": 15684,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 75
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29775,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 14743,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 27784,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 4606,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 9208,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10123,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 23490,
+   "to": 24447,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 337
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 256,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 290
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28697,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15407,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1369,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29941,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15370,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 265,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 168
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15674,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6285,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 12077,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 223,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 20398,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 188
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7654,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 12553,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7817,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28248,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10053,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10853,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 14250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8594,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 768,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 141
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12591,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 125
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28986,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6736,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 30138,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17240,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 250
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20318,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 262
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 6019,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 256,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 95
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28944,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10053,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7714,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 137
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7210,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12552,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 2563,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 364
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15932,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20178,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7654,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7711,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 63
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1418,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 533,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 230
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 27806,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17426,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17460,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29254,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 5291,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10775,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15416,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1834,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 9484,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17460,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8039,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2255,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2922,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1418,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 14237,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6992,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20320,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 263
+    }
+   }
+  },
+  {
+   "from": 32,
+   "to": 33,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 49
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 9016,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 180
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 4762,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8594,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 6992,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1966,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 4762,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8200,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20313,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 114
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6610,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10586,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20308,
+   "to": 22400,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 59
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2818,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28944,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 765,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 140
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29855,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15057,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20317,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 236
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1689,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15068,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29775,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 30381,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 185
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20312,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 109
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 27747,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17227,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15962,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15407,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15630,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 23493,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 365
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 4111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 5736,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29390,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 19080,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 265,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 385
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 6049,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28986,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20308,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": true,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 58
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29010,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 23490,
+   "to": 24448,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 337
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1382,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 220
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 14268,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 176,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 5814,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 24447,
+   "to": 20459,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 341
+    }
+   }
+  },
+  {
+   "from": 22449,
+   "to": 22451,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 203
+    }
+   }
+  },
+  {
+   "from": 17772,
+   "to": 17782,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "command.go",
+     "line": 1044
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 131
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7619,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 5736,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 23490,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 352
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8750,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 160,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7687,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7210,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 14250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17784,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 305
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6019,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 6049,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7817,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 11583,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1682,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 17166,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 187
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10701,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 247
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1134,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7064,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15057,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17436,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2818,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2861,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2612,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7687,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 11111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 11583,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 2563,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 384
+    }
+   }
+  },
+  {
+   "from": 24448,
+   "to": 3506,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 346
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15416,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7591,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 3988,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2398,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 17426,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28698,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 17901,
+   "to": 22447,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "completions.go",
+     "line": 485
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 30380,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 182
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 223,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28640,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7662,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 10775,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8039,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8339,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 23490,
+   "to": 3506,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 331
+    }
+   }
+  },
+  {
+   "from": 22411,
+   "to": 460,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 76
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 767,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 218
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7591,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 24447,
+   "to": 647,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 341
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15068,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29941,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28971,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1728,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28697,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 24447,
+   "to": 21786,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 341
+    }
+   }
+  },
+  {
+   "from": 25200,
+   "to": 22449,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "repo_override.go",
+     "line": 16
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7707,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 9484,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 16198,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22451,
+   "to": 3578,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 311
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 27963,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 14743,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 12613,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 160,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8331,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22400,
+   "to": 9038,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 362
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 29917,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 166
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29254,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29706,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 542,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 230
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 6285,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12613,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 11381,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 186
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 460,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 171
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17772,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 212
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10250,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7662,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20319,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 268
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 17436,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28672,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20312,
+   "to": 17778,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 283
+    }
+   }
+  },
+  {
+   "from": 32,
+   "to": 34,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 50
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1689,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 11426,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 3669,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 12052,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 6630,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 379
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 11426,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 765,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 289
+    }
+   }
+  },
+  {
+   "from": 22451,
+   "to": 3506,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 310
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 2255,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 4394,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28232,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7599,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 8198,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 11172,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20309,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 65
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 18536,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 262
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 3988,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 9208,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29580,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 2861,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 22411,
+   "to": 22218,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 80
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 265,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 10598,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 30195,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 3502,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 533,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 1369,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29010,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28950,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 5291,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 14237,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28701,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 27747,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28200,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 513,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 269
+    }
+   }
+  },
+  {
+   "from": 20320,
+   "to": 450,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 369
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8750,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20181,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 11111,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 30195,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7064,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1966,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 542,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 298
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 15630,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 16198,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 12592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 379
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 345,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 384
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 4394,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 7707,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29080,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 29080,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 29580,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 28248,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15962,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28780,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28919,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28950,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20318,
+   "to": 12591,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 374
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 1728,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 5699,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 12553,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 16578,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 22449,
+   "to": 22452,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 202
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8198,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 8899,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15932,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 16578,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 238
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 15683,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 229
+    }
+   }
+  },
+  {
+   "from": 33,
+   "to": 20315,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 256
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 176,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 7474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 20317,
+   "to": 28672,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 302
+    }
+   }
+  },
+  {
+   "from": 22447,
+   "to": 22448,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 173
+    }
+   }
+  }
+ ],
+ "Packages": [
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmd/codespace",
+   "name": "codespace"
+  },
+  {
+   "path": "golang.org/x/text/internal/language",
+   "name": "language"
+  },
+  {
+   "path": "golang.org/x/net/http2",
+   "name": "http2"
+  },
+  {
+   "path": "net",
+   "name": "net"
+  },
+  {
+   "path": "crypto/x509/internal/macos",
+   "name": "macOS"
+  },
+  {
+   "path": "github.com/golang/protobuf/proto",
+   "name": "proto"
+  },
+  {
+   "path": "github.com/cli/cli/v2/api",
+   "name": "api"
+  },
+  {
+   "path": "github.com/cli/cli/v2/internal/config",
+   "name": "config"
+  },
+  {
+   "path": "math/big",
+   "name": "big"
+  },
+  {
+   "path": "encoding/json",
+   "name": "json"
+  },
+  {
+   "path": "encoding/csv",
+   "name": "csv"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmd/root",
+   "name": "root"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmd/alias/expand",
+   "name": "expand"
+  },
+  {
+   "path": "net/url",
+   "name": "url"
+  },
+  {
+   "path": "google.golang.org/protobuf/internal/impl",
+   "name": "impl"
+  },
+  {
+   "path": "reflect",
+   "name": "reflect"
+  },
+  {
+   "path": "github.com/cli/shurcooL-graphql",
+   "name": "graphql"
+  },
+  {
+   "path": "crypto/tls",
+   "name": "tls"
+  },
+  {
+   "path": "github.com/cli/cli/v2/utils",
+   "name": "utils"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmd/factory",
+   "name": "factory"
+  },
+  {
+   "path": "github.com/mgutz/ansi",
+   "name": "ansi"
+  },
+  {
+   "path": "github.com/spf13/cobra",
+   "name": "cobra"
+  },
+  {
+   "path": "github.com/gdamore/tcell/v2",
+   "name": "tcell"
+  },
+  {
+   "path": "strconv",
+   "name": "strconv"
+  },
+  {
+   "path": "github.com/gorilla/websocket",
+   "name": "websocket"
+  },
+  {
+   "path": "golang.org/x/crypto/ssh",
+   "name": "ssh"
+  },
+  {
+   "path": "net/textproto",
+   "name": "textproto"
+  },
+  {
+   "path": "github.com/itchyny/timefmt-go",
+   "name": "timefmt"
+  },
+  {
+   "path": "github.com/hashicorp/go-multierror",
+   "name": "multierror"
+  },
+  {
+   "path": "github.com/AlecAivazis/survey/v2/core",
+   "name": "core"
+  },
+  {
+   "path": "os",
+   "name": "os"
+  },
+  {
+   "path": "github.com/mattn/go-isatty",
+   "name": "isatty"
+  },
+  {
+   "path": "github.com/cli/cli/v2/internal/update",
+   "name": "update"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmdutil",
+   "name": "cmdutil"
+  },
+  {
+   "path": "syscall",
+   "name": "syscall"
+  },
+  {
+   "path": "strings",
+   "name": "strings"
+  },
+  {
+   "path": "github.com/cli/cli/v2/internal/run",
+   "name": "run"
+  },
+  {
+   "path": "github.com/dlclark/regexp2/syntax",
+   "name": "syntax"
+  },
+  {
+   "path": "text/template",
+   "name": "template"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/search",
+   "name": "search"
+  },
+  {
+   "path": "compress/flate",
+   "name": "flate"
+  },
+  {
+   "path": "fmt",
+   "name": "fmt"
+  },
+  {
+   "path": "os/exec",
+   "name": "exec"
+  },
+  {
+   "path": "context",
+   "name": "context"
+  },
+  {
+   "path": "google.golang.org/grpc/internal/transport",
+   "name": "transport"
+  },
+  {
+   "path": "github.com/cli/cli/v2/cmd/gh",
+   "name": "main"
+  },
+  {
+   "path": "github.com/cli/safeexec",
+   "name": "safeexec"
+  },
+  {
+   "path": "time",
+   "name": "time"
+  },
+  {
+   "path": "path/filepath",
+   "name": "filepath"
+  },
+  {
+   "path": "internal/reflectlite",
+   "name": "reflectlite"
+  },
+  {
+   "path": "crypto/aes",
+   "name": "aes"
+  },
+  {
+   "path": "crypto/rc4",
+   "name": "rc4"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/iostreams",
+   "name": "iostreams"
+  },
+  {
+   "path": "github.com/itchyny/gojq",
+   "name": "gojq"
+  },
+  {
+   "path": "net/http",
+   "name": "http"
+  },
+  {
+   "path": "crypto/x509",
+   "name": "x509"
+  },
+  {
+   "path": "internal/poll",
+   "name": "poll"
+  },
+  {
+   "path": "github.com/cli/cli/v2/internal/ghrepo",
+   "name": "ghrepo"
+  },
+  {
+   "path": "vendor/golang.org/x/net/idna",
+   "name": "idna"
+  },
+  {
+   "path": "crypto/des",
+   "name": "des"
+  },
+  {
+   "path": "io/fs",
+   "name": "fs"
+  },
+  {
+   "path": "github.com/MakeNowJust/heredoc",
+   "name": "heredoc"
+  },
+  {
+   "path": "github.com/cli/cli/v2/internal/text",
+   "name": "text"
+  },
+  {
+   "path": "github.com/cli/cli/v2/pkg/cmd/extension",
+   "name": "extension"
+  },
+  {
+   "path": "google.golang.org/grpc/internal/status",
+   "name": "status"
+  },
+  {
+   "path": "encoding/base64",
+   "name": "base64"
+  },
+  {
+   "path": "errors",
+   "name": "errors"
+  },
+  {
+   "path": "github.com/cli/cli/v2/git",
+   "name": "git"
+  },
+  {
+   "path": "github.com/sourcegraph/jsonrpc2",
+   "name": "jsonrpc2"
+  }
+ ]
+}

@@ -1,0 +1,7428 @@
+{
+ "Root": "\u003croot\u003e",
+ "Nodes": [
+  {
+   "id": 23048,
+   "attrs": {
+    "name": "handleWatch",
+    "label": "(*watcher).handleWatch",
+    "pos": {
+     "name": "watch.go",
+     "line": 438
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "hw",
+      "type": "net/http.ResponseWriter"
+     },
+     {
+      "name": "r",
+      "type": "*net/http.Request"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 592,
+   "attrs": {
+    "name": "Lock",
+    "label": "(*Mutex).Lock",
+    "pos": {
+     "name": "mutex.go",
+     "line": 72
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "m",
+      "type": "*sync.Mutex"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "sync"
+   }
+  },
+  {
+   "id": 594,
+   "attrs": {
+    "name": "Unlock",
+    "label": "(*Mutex).Unlock",
+    "pos": {
+     "name": "mutex.go",
+     "line": 203
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "m",
+      "type": "*sync.Mutex"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "sync"
+   }
+  },
+  {
+   "id": 23485,
+   "attrs": {
+    "name": "Errorf",
+    "label": "Errorf",
+    "pos": {
+     "name": "err.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "code",
+      "type": "int"
+     },
+     {
+      "name": "resp",
+      "type": "interface{}"
+     },
+     {
+      "name": "msg",
+      "type": "string"
+     },
+     {
+      "name": "v",
+      "type": "[]interface{}"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 3037,
+   "attrs": {
+    "name": "Add",
+    "label": "(*WaitGroup).Add",
+    "pos": {
+     "name": "waitgroup.go",
+     "line": 59
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "wg",
+      "type": "*sync.WaitGroup"
+     },
+     {
+      "name": "delta",
+      "type": "int"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "sync"
+   }
+  },
+  {
+   "id": 23486,
+   "attrs": {
+    "name": "Accept",
+    "label": "Accept",
+    "pos": {
+     "name": "accept.go",
+     "line": 73
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "net/http.ResponseWriter"
+     },
+     {
+      "name": "r",
+      "type": "*net/http.Request"
+     },
+     {
+      "name": "opts",
+      "type": "*nhooyr.io/websocket.AcceptOptions"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 3040,
+   "attrs": {
+    "name": "Done",
+    "label": "(*WaitGroup).Done",
+    "pos": {
+     "name": "waitgroup.go",
+     "line": 104
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "wg",
+      "type": "*sync.WaitGroup"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "sync"
+   }
+  },
+  {
+   "id": 23487,
+   "attrs": {
+    "name": "handleWatch$1",
+    "label": "(*watcher).handleWatch$1",
+    "pos": {
+     "name": "watch.go",
+     "line": 459
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 13918,
+   "attrs": {
+    "name": "Close",
+    "label": "(*Conn).Close",
+    "pos": {
+     "name": "close_notjs.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*nhooyr.io/websocket.Conn"
+     },
+     {
+      "name": "code",
+      "type": "nhooyr.io/websocket.StatusCode"
+     },
+     {
+      "name": "reason",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 10528,
+   "attrs": {
+    "name": "WithTimeout",
+    "label": "WithTimeout",
+    "pos": {
+     "name": "context.go",
+     "line": 506
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "parent",
+      "type": "context.Context"
+     },
+     {
+      "name": "timeout",
+      "type": "time.Duration"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 23716,
+   "attrs": {
+    "name": "handleWatch$1$1",
+    "label": "(*watcher).handleWatch$1$1",
+    "pos": {
+     "name": "watch.go",
+     "line": 475
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 13920,
+   "attrs": {
+    "name": "CloseRead",
+    "label": "(*Conn).CloseRead",
+    "pos": {
+     "name": "read.go",
+     "line": 56
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*nhooyr.io/websocket.Conn"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 23717,
+   "attrs": {
+    "name": "wsHeartbeat",
+    "label": "wsHeartbeat",
+    "pos": {
+     "name": "watch.go",
+     "line": 540
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "c",
+      "type": "*nhooyr.io/websocket.Conn"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 5737,
+   "attrs": {
+    "name": "NewTimer",
+    "label": "NewTimer",
+    "pos": {
+     "name": "sleep.go",
+     "line": 86
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "d",
+      "type": "time.Duration"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 13922,
+   "attrs": {
+    "name": "Ping",
+    "label": "(*Conn).Ping",
+    "pos": {
+     "name": "conn_notjs.go",
+     "line": 181
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*nhooyr.io/websocket.Conn"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "websocket"
+   }
+  },
+  {
+   "id": 12285,
+   "attrs": {
+    "name": "Reset",
+    "label": "(*Timer).Reset",
+    "pos": {
+     "name": "sleep.go",
+     "line": 134
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "t",
+      "type": "*time.Timer"
+     },
+     {
+      "name": "d",
+      "type": "time.Duration"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 4890,
+   "attrs": {
+    "name": "Done",
+    "label": "(*cancelCtx).Done",
+    "pos": {
+     "name": "context.go",
+     "line": 358
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*context.cancelCtx"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 23843,
+   "attrs": {
+    "name": "getRes",
+    "label": "(*watcher).getRes",
+    "pos": {
+     "name": "watch.go",
+     "line": 414
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23718,
+   "attrs": {
+    "name": "writeLoop",
+    "label": "(*wsclient).writeLoop",
+    "pos": {
+     "name": "watch.go",
+     "line": 494
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "cl",
+      "type": "*oss.terrastruct.com/d2.wsclient"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23844,
+   "attrs": {
+    "name": "write",
+    "label": "(*wsclient).write",
+    "pos": {
+     "name": "watch.go",
+     "line": 513
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "cl",
+      "type": "*oss.terrastruct.com/d2.wsclient"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "res",
+      "type": "*oss.terrastruct.com/d2.compileResult"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23921,
+   "attrs": {
+    "name": "Write",
+    "label": "Write",
+    "pos": {
+     "name": "wsjson.go",
+     "line": 47
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "c",
+      "type": "*nhooyr.io/websocket.Conn"
+     },
+     {
+      "name": "v",
+      "type": "interface{}"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "wsjson"
+   }
+  },
+  {
+   "id": 21474,
+   "attrs": {
+    "name": "WithCancel$1",
+    "label": "WithCancel$1",
+    "pos": {
+     "name": "context.go",
+     "line": 238
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 21517,
+   "attrs": {
+    "name": "WithDeadline$1",
+    "label": "WithDeadline$1",
+    "pos": {
+     "name": "context.go",
+     "line": 450
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 21519,
+   "attrs": {
+    "name": "WithDeadline$3",
+    "label": "WithDeadline$3",
+    "pos": {
+     "name": "context.go",
+     "line": 459
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 4892,
+   "attrs": {
+    "name": "Err",
+    "label": "(*cancelCtx).Err",
+    "pos": {
+     "name": "context.go",
+     "line": 373
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "c",
+      "type": "*context.cancelCtx"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 20987,
+   "attrs": {
+    "name": "ServeHTTP$1",
+    "label": "(HandlerFuncAdapter).ServeHTTP$1",
+    "pos": {
+     "name": "err.go",
+     "line": 92
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "net/http.ResponseWriter"
+     },
+     {
+      "name": "r",
+      "type": "*net/http.Request"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 23046,
+   "attrs": {
+    "name": "handleRoot",
+    "label": "(*watcher).handleRoot",
+    "pos": {
+     "name": "watch.go",
+     "line": 420
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "hw",
+      "type": "net/http.ResponseWriter"
+     },
+     {
+      "name": "r",
+      "type": "*net/http.Request"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 5021,
+   "attrs": {
+    "name": "Set",
+    "label": "(Header).Set",
+    "pos": {
+     "name": "header.go",
+     "line": 39
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "h",
+      "type": "net/http.Header"
+     },
+     {
+      "name": "key",
+      "type": "string"
+     },
+     {
+      "name": "value",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 126,
+   "attrs": {
+    "name": "Fprintf",
+    "label": "Fprintf",
+    "pos": {
+     "name": "print.go",
+     "line": 202
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "io.Writer"
+     },
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 14216,
+   "attrs": {
+    "name": "Header",
+    "label": "(*response).Header",
+    "pos": {
+     "name": "server.go",
+     "line": 1076
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "*net/http.response"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 25485,
+   "attrs": {
+    "name": "Header",
+    "label": "(*responseWriter).Header",
+    "pos": {
+     "name": "log.go",
+     "line": 35
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "rw",
+      "type": "*oss.terrastruct.com/util-go/xhttp.responseWriter"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 25989,
+   "attrs": {
+    "name": "Header",
+    "label": "(*http2responseWriter).Header",
+    "pos": {
+     "name": "h2_bundle.go",
+     "line": 6349
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "*net/http.http2responseWriter"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 17765,
+   "attrs": {
+    "name": "ServeHTTP",
+    "label": "(HandlerFunc).ServeHTTP",
+    "pos": {
+     "name": "server.go",
+     "line": 2083
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "net/http.HandlerFunc"
+     },
+     {
+      "name": "w",
+      "type": "net/http.ResponseWriter"
+     },
+     {
+      "name": "r",
+      "type": "*net/http.Request"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 21406,
+   "attrs": {
+    "name": "longLayoutHelp",
+    "label": "longLayoutHelp",
+    "pos": {
+     "name": "help.go",
+     "line": 85
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19368,
+   "attrs": {
+    "name": "Arg",
+    "label": "(*FlagSet).Arg",
+    "pos": {
+     "name": "flag.go",
+     "line": 786
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/spf13/pflag.FlagSet"
+     },
+     {
+      "name": "i",
+      "type": "int"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "pflag"
+   }
+  },
+  {
+   "id": 19375,
+   "attrs": {
+    "name": "FindPlugin",
+    "label": "FindPlugin",
+    "pos": {
+     "name": "plugin.go",
+     "line": 144
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 608,
+   "attrs": {
+    "name": "Is",
+    "label": "Is",
+    "pos": {
+     "name": "wrap.go",
+     "line": 40
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "error"
+     },
+     {
+      "name": "target",
+      "type": "error"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 19377,
+   "attrs": {
+    "name": "layoutNotFound",
+    "label": "layoutNotFound",
+    "pos": {
+     "name": "help.go",
+     "line": 115
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     },
+     {
+      "name": "layout",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21409,
+   "attrs": {
+    "name": "ListPluginInfos",
+    "label": "ListPluginInfos",
+    "pos": {
+     "name": "plugin.go",
+     "line": 118
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 973,
+   "attrs": {
+    "name": "Join",
+    "label": "Join",
+    "pos": {
+     "name": "strings.go",
+     "line": 425
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "elems",
+      "type": "[]string"
+     },
+     {
+      "name": "sep",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 4836,
+   "attrs": {
+    "name": "UsageErrorf",
+    "label": "UsageErrorf",
+    "pos": {
+     "name": "xmain.go",
+     "line": 143
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "msg",
+      "type": "string"
+     },
+     {
+      "name": "v",
+      "type": "[]interface{}"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 19378,
+   "attrs": {
+    "name": "humanPath",
+    "label": "humanPath",
+    "pos": {
+     "name": "help.go",
+     "line": 146
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "fp",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19344,
+   "attrs": {
+    "name": "Getenv",
+    "label": "Getenv",
+    "pos": {
+     "name": "env.go",
+     "line": 101
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "key",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 4218,
+   "attrs": {
+    "name": "HasPrefix",
+    "label": "HasPrefix",
+    "pos": {
+     "name": "strings.go",
+     "line": 448
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "prefix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 1789,
+   "attrs": {
+    "name": "TrimPrefix",
+    "label": "TrimPrefix",
+    "pos": {
+     "name": "strings.go",
+     "line": 975
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "prefix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 532,
+   "attrs": {
+    "name": "Join",
+    "label": "Join",
+    "pos": {
+     "name": "path.go",
+     "line": 224
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "elem",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "filepath"
+   }
+  },
+  {
+   "id": 310,
+   "attrs": {
+    "name": "Sprintf",
+    "label": "Sprintf",
+    "pos": {
+     "name": "print.go",
+     "line": 217
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 5247,
+   "attrs": {
+    "name": "HasSuffix",
+    "label": "HasSuffix",
+    "pos": {
+     "name": "strings.go",
+     "line": 453
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "suffix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 4838,
+   "attrs": {
+    "name": "Info",
+    "label": "(elkPlugin).Info",
+    "pos": {
+     "name": "plugin_elk.go",
+     "line": 78
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "oss.terrastruct.com/d2/d2plugin.elkPlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 10532,
+   "attrs": {
+    "name": "Info",
+    "label": "(*execPlugin).Info",
+    "pos": {
+     "name": "exec.go",
+     "line": 96
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "*oss.terrastruct.com/d2/d2plugin.execPlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 13191,
+   "attrs": {
+    "name": "Info",
+    "label": "(dagrePlugin).Info",
+    "pos": {
+     "name": "plugin_dagre.go",
+     "line": 57
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "oss.terrastruct.com/d2/d2plugin.dagrePlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 19363,
+   "attrs": {
+    "name": "DiscardSlog",
+    "label": "DiscardSlog",
+    "pos": {
+     "name": "main.go",
+     "line": 309
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19300,
+   "attrs": {
+    "name": "Sink",
+    "label": "Sink",
+    "pos": {
+     "name": "sloghuman.go",
+     "line": 20
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "io.Writer"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "sloghuman"
+   }
+  },
+  {
+   "id": 19301,
+   "attrs": {
+    "name": "Make",
+    "label": "Make",
+    "pos": {
+     "name": "slog.go",
+     "line": 73
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "sinks",
+      "type": "[]cdr.dev/slog.Sink"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "slog"
+   }
+  },
+  {
+   "id": 21402,
+   "attrs": {
+    "name": "With",
+    "label": "With",
+    "pos": {
+     "name": "log.go",
+     "line": 37
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "l",
+      "type": "cdr.dev/slog.Logger"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "log"
+   }
+  },
+  {
+   "id": 19362,
+   "attrs": {
+    "name": "run",
+    "label": "run",
+    "pos": {
+     "name": "main.go",
+     "line": 41
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 9401,
+   "attrs": {
+    "name": "Bool",
+    "label": "(*Opts).Bool",
+    "pos": {
+     "name": "opts.go",
+     "line": 149
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "o",
+      "type": "*oss.terrastruct.com/util-go/xmain.Opts"
+     },
+     {
+      "name": "envKey",
+      "type": "string"
+     },
+     {
+      "name": "flag",
+      "type": "string"
+     },
+     {
+      "name": "shortFlag",
+      "type": "string"
+     },
+     {
+      "name": "defaultVal",
+      "type": "bool"
+     },
+     {
+      "name": "usage",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 6091,
+   "attrs": {
+    "name": "String",
+    "label": "(*Opts).String",
+    "pos": {
+     "name": "opts.go",
+     "line": 141
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "o",
+      "type": "*oss.terrastruct.com/util-go/xmain.Opts"
+     },
+     {
+      "name": "envKey",
+      "type": "string"
+     },
+     {
+      "name": "flag",
+      "type": "string"
+     },
+     {
+      "name": "shortFlag",
+      "type": "string"
+     },
+     {
+      "name": "defaultVal",
+      "type": "string"
+     },
+     {
+      "name": "usage",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 6092,
+   "attrs": {
+    "name": "Int64",
+    "label": "(*Opts).Int64",
+    "pos": {
+     "name": "opts.go",
+     "line": 129
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "o",
+      "type": "*oss.terrastruct.com/util-go/xmain.Opts"
+     },
+     {
+      "name": "envKey",
+      "type": "string"
+     },
+     {
+      "name": "flag",
+      "type": "string"
+     },
+     {
+      "name": "shortFlag",
+      "type": "string"
+     },
+     {
+      "name": "defaultVal",
+      "type": "int64"
+     },
+     {
+      "name": "usage",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 19364,
+   "attrs": {
+    "name": "ListPlugins",
+    "label": "ListPlugins",
+    "pos": {
+     "name": "plugin.go",
+     "line": 83
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 19365,
+   "attrs": {
+    "name": "populateLayoutOpts",
+    "label": "populateLayoutOpts",
+    "pos": {
+     "name": "main.go",
+     "line": 313
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21404,
+   "attrs": {
+    "name": "ListPluginFlags",
+    "label": "ListPluginFlags",
+    "pos": {
+     "name": "plugin.go",
+     "line": 157
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 6090,
+   "attrs": {
+    "name": "AddToOpts",
+    "label": "(*PluginSpecificFlag).AddToOpts",
+    "pos": {
+     "name": "plugin.go",
+     "line": 33
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*oss.terrastruct.com/d2/d2plugin.PluginSpecificFlag"
+     },
+     {
+      "name": "opts",
+      "type": "*oss.terrastruct.com/util-go/xmain.Opts"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 6689,
+   "attrs": {
+    "name": "MarkHidden",
+    "label": "(*FlagSet).MarkHidden",
+    "pos": {
+     "name": "flag.go",
+     "line": 434
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/spf13/pflag.FlagSet"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "pflag"
+   }
+  },
+  {
+   "id": 6691,
+   "attrs": {
+    "name": "Parse",
+    "label": "(*FlagSet).Parse",
+    "pos": {
+     "name": "flag.go",
+     "line": 1123
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/spf13/pflag.FlagSet"
+     },
+     {
+      "name": "arguments",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "pflag"
+   }
+  },
+  {
+   "id": 19366,
+   "attrs": {
+    "name": "help",
+    "label": "help",
+    "pos": {
+     "name": "help.go",
+     "line": 17
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 533,
+   "attrs": {
+    "name": "Base",
+    "label": "Base",
+    "pos": {
+     "name": "path.go",
+     "line": 561
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "path",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "filepath"
+   }
+  },
+  {
+   "id": 6440,
+   "attrs": {
+    "name": "Defaults",
+    "label": "(*Opts).Defaults",
+    "pos": {
+     "name": "opts.go",
+     "line": 41
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "o",
+      "type": "*oss.terrastruct.com/util-go/xmain.Opts"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 19367,
+   "attrs": {
+    "name": "Args",
+    "label": "(*FlagSet).Args",
+    "pos": {
+     "name": "flag.go",
+     "line": 806
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "f",
+      "type": "*github.com/spf13/pflag.FlagSet"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "pflag"
+   }
+  },
+  {
+   "id": 19369,
+   "attrs": {
+    "name": "initPlaywright",
+    "label": "initPlaywright",
+    "pos": {
+     "name": "main.go",
+     "line": 328
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19380,
+   "attrs": {
+    "name": "InitPlaywright",
+    "label": "InitPlaywright",
+    "pos": {
+     "name": "png.go",
+     "line": 58
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "png"
+   }
+  },
+  {
+   "id": 1408,
+   "attrs": {
+    "name": "Cleanup",
+    "label": "(*Playwright).Cleanup",
+    "pos": {
+     "name": "png.go",
+     "line": 28
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "pw",
+      "type": "*oss.terrastruct.com/d2/lib/png.Playwright"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "png"
+   }
+  },
+  {
+   "id": 19370,
+   "attrs": {
+    "name": "layoutCmd",
+    "label": "layoutCmd",
+    "pos": {
+     "name": "help.go",
+     "line": 42
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21405,
+   "attrs": {
+    "name": "shortLayoutHelp",
+    "label": "shortLayoutHelp",
+    "pos": {
+     "name": "help.go",
+     "line": 52
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21407,
+   "attrs": {
+    "name": "pluginSubcommand",
+    "label": "pluginSubcommand",
+    "pos": {
+     "name": "help.go",
+     "line": 132
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "ps",
+      "type": "[]oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22178,
+   "attrs": {
+    "name": "Serve",
+    "label": "Serve",
+    "pos": {
+     "name": "serve.go",
+     "line": 22
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 23432,
+   "attrs": {
+    "name": "Serve$1",
+    "label": "Serve$1",
+    "pos": {
+     "name": "serve.go",
+     "line": 23
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 19371,
+   "attrs": {
+    "name": "fmtCmd",
+    "label": "fmtCmd",
+    "pos": {
+     "name": "fmt.go",
+     "line": 15
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 4008,
+   "attrs": {
+    "name": "Errorf",
+    "label": "Errorf",
+    "pos": {
+     "name": "xdefer.go",
+     "line": 104
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "err",
+      "type": "*error"
+     },
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "v",
+      "type": "[]interface{}"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xdefer"
+   }
+  },
+  {
+   "id": 6439,
+   "attrs": {
+    "name": "NewOpts",
+    "label": "NewOpts",
+    "pos": {
+     "name": "opts.go",
+     "line": 25
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "env",
+      "type": "*oss.terrastruct.com/util-go/xos.Env"
+     },
+     {
+      "name": "log",
+      "type": "*oss.terrastruct.com/util-go/cmdlog.Logger"
+     },
+     {
+      "name": "args",
+      "type": "[]string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 4954,
+   "attrs": {
+    "name": "ReadPath",
+    "label": "(*State).ReadPath",
+    "pos": {
+     "name": "xmain.go",
+     "line": 153
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "fp",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 1790,
+   "attrs": {
+    "name": "NewReader",
+    "label": "NewReader",
+    "pos": {
+     "name": "reader.go",
+     "line": 160
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "b",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "bytes"
+   }
+  },
+  {
+   "id": 21408,
+   "attrs": {
+    "name": "Parse",
+    "label": "Parse",
+    "pos": {
+     "name": "parse.go",
+     "line": 33
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "path",
+      "type": "string"
+     },
+     {
+      "name": "r",
+      "type": "io.RuneReader"
+     },
+     {
+      "name": "opts",
+      "type": "*oss.terrastruct.com/d2/d2parser.ParseOptions"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2parser"
+   }
+  },
+  {
+   "id": 20857,
+   "attrs": {
+    "name": "Format",
+    "label": "Format",
+    "pos": {
+     "name": "format.go",
+     "line": 11
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "n",
+      "type": "oss.terrastruct.com/d2/d2ast.Node"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2format"
+   }
+  },
+  {
+   "id": 633,
+   "attrs": {
+    "name": "Equal",
+    "label": "Equal",
+    "pos": {
+     "name": "bytes.go",
+     "line": 18
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "a",
+      "type": "[]byte"
+     },
+     {
+      "name": "b",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "bytes"
+   }
+  },
+  {
+   "id": 4957,
+   "attrs": {
+    "name": "WritePath",
+    "label": "(*State).WritePath",
+    "pos": {
+     "name": "xmain.go",
+     "line": 160
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "fp",
+      "type": "string"
+     },
+     {
+      "name": "p",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 5968,
+   "attrs": {
+    "name": "Println",
+    "label": "Println",
+    "pos": {
+     "name": "print.go",
+     "line": 273
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 18534,
+   "attrs": {
+    "name": "Setenv",
+    "label": "(*Env).Setenv",
+    "pos": {
+     "name": "env.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*oss.terrastruct.com/util-go/xos.Env"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "value",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xos"
+   }
+  },
+  {
+   "id": 19372,
+   "attrs": {
+    "name": "Find",
+    "label": "Find",
+    "pos": {
+     "name": "catalog.go",
+     "line": 27
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "id",
+      "type": "int64"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2themescatalog"
+   }
+  },
+  {
+   "id": 19373,
+   "attrs": {
+    "name": "renameExt",
+    "label": "renameExt",
+    "pos": {
+     "name": "main.go",
+     "line": 299
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "fp",
+      "type": "string"
+     },
+     {
+      "name": "newExt",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19379,
+   "attrs": {
+    "name": "Ext",
+    "label": "Ext",
+    "pos": {
+     "name": "path.go",
+     "line": 232
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "path",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "filepath"
+   }
+  },
+  {
+   "id": 9209,
+   "attrs": {
+    "name": "TrimSuffix",
+    "label": "TrimSuffix",
+    "pos": {
+     "name": "strings.go",
+     "line": 984
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "s",
+      "type": "string"
+     },
+     {
+      "name": "suffix",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "strings"
+   }
+  },
+  {
+   "id": 19374,
+   "attrs": {
+    "name": "CLIString",
+    "label": "CLIString",
+    "pos": {
+     "name": "catalog.go",
+     "line": 37
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "d2themescatalog"
+   }
+  },
+  {
+   "id": 4952,
+   "attrs": {
+    "name": "Printf",
+    "label": "(*Logger).Printf",
+    "pos": {
+     "name": "log.go",
+     "line": 201
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*log.Logger"
+     },
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "v",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "log"
+   }
+  },
+  {
+   "id": 19376,
+   "attrs": {
+    "name": "HydratePluginOpts",
+    "label": "HydratePluginOpts",
+    "pos": {
+     "name": "plugin.go",
+     "line": 170
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "plugin",
+      "type": "oss.terrastruct.com/d2/d2plugin.Plugin"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 19381,
+   "attrs": {
+    "name": "run$1",
+    "label": "run$1",
+    "pos": {
+     "name": "main.go",
+     "line": 180
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 19382,
+   "attrs": {
+    "name": "compile",
+    "label": "compile",
+    "pos": {
+     "name": "main.go",
+     "line": 225
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "plugin",
+      "type": "oss.terrastruct.com/d2/d2plugin.Plugin"
+     },
+     {
+      "name": "sketch",
+      "type": "bool"
+     },
+     {
+      "name": "pad",
+      "type": "int64"
+     },
+     {
+      "name": "themeID",
+      "type": "int64"
+     },
+     {
+      "name": "inputPath",
+      "type": "string"
+     },
+     {
+      "name": "outputPath",
+      "type": "string"
+     },
+     {
+      "name": "bundle",
+      "type": "bool"
+     },
+     {
+      "name": "page",
+      "type": "github.com/playwright-community/playwright-go.Page"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21412,
+   "attrs": {
+    "name": "NewRuler",
+    "label": "NewRuler",
+    "pos": {
+     "name": "textmeasure.go",
+     "line": 101
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "textmeasure"
+   }
+  },
+  {
+   "id": 13195,
+   "attrs": {
+    "name": "PostProcess",
+    "label": "(dagrePlugin).PostProcess",
+    "pos": {
+     "name": "plugin_dagre.go",
+     "line": 85
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "oss.terrastruct.com/d2/d2plugin.dagrePlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 21413,
+   "attrs": {
+    "name": "Compile",
+    "label": "Compile",
+    "pos": {
+     "name": "d2.go",
+     "line": 35
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "input",
+      "type": "string"
+     },
+     {
+      "name": "opts",
+      "type": "*oss.terrastruct.com/d2/d2lib.CompileOptions"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2lib"
+   }
+  },
+  {
+   "id": 21414,
+   "attrs": {
+    "name": "Render",
+    "label": "Render",
+    "pos": {
+     "name": "d2svg.go",
+     "line": 1148
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "diagram",
+      "type": "*oss.terrastruct.com/d2/d2target.Diagram"
+     },
+     {
+      "name": "opts",
+      "type": "*oss.terrastruct.com/d2/d2renderers/d2svg.RenderOpts"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2svg"
+   }
+  },
+  {
+   "id": 21415,
+   "attrs": {
+    "name": "BundleLocal",
+    "label": "BundleLocal",
+    "pos": {
+     "name": "imgbundler.go",
+     "line": 30
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "imgbundler"
+   }
+  },
+  {
+   "id": 21416,
+   "attrs": {
+    "name": "BundleRemote",
+    "label": "BundleRemote",
+    "pos": {
+     "name": "imgbundler.go",
+     "line": 34
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "imgbundler"
+   }
+  },
+  {
+   "id": 21417,
+   "attrs": {
+    "name": "Combine",
+    "label": "Combine",
+    "pos": {
+     "name": "error.go",
+     "line": 449
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "errors",
+      "type": "[]error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "multierr"
+   }
+  },
+  {
+   "id": 21418,
+   "attrs": {
+    "name": "Append",
+    "label": "Append",
+    "pos": {
+     "name": "appendix.go",
+     "line": 54
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "diagram",
+      "type": "*oss.terrastruct.com/d2/d2target.Diagram"
+     },
+     {
+      "name": "ruler",
+      "type": "*oss.terrastruct.com/d2/lib/textmeasure.Ruler"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "appendix"
+   }
+  },
+  {
+   "id": 21419,
+   "attrs": {
+    "name": "ConvertSVG",
+    "label": "ConvertSVG",
+    "pos": {
+     "name": "png.go",
+     "line": 76
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "page",
+      "type": "github.com/playwright-community/playwright-go.Page"
+     },
+     {
+      "name": "svg",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "png"
+   }
+  },
+  {
+   "id": 4842,
+   "attrs": {
+    "name": "PostProcess",
+    "label": "(elkPlugin).PostProcess",
+    "pos": {
+     "name": "plugin_elk.go",
+     "line": 106
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "oss.terrastruct.com/d2/d2plugin.elkPlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 10536,
+   "attrs": {
+    "name": "PostProcess",
+    "label": "(*execPlugin).PostProcess",
+    "pos": {
+     "name": "exec.go",
+     "line": 161
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "p",
+      "type": "*oss.terrastruct.com/d2/d2plugin.execPlugin"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "in",
+      "type": "[]byte"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "d2plugin"
+   }
+  },
+  {
+   "id": 5933,
+   "attrs": {
+    "name": "SetTS",
+    "label": "(*Logger).SetTS",
+    "pos": {
+     "name": "cmdlog.go",
+     "line": 62
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*oss.terrastruct.com/util-go/cmdlog.Logger"
+     },
+     {
+      "name": "enabled",
+      "type": "bool"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "cmdlog"
+   }
+  },
+  {
+   "id": 19383,
+   "attrs": {
+    "name": "newWatcher",
+    "label": "newWatcher",
+    "pos": {
+     "name": "watch.go",
+     "line": 86
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "ms",
+      "type": "*oss.terrastruct.com/util-go/xmain.State"
+     },
+     {
+      "name": "opts",
+      "type": "oss.terrastruct.com/d2.watcherOpts"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 1090,
+   "attrs": {
+    "name": "WithCancel",
+    "label": "WithCancel",
+    "pos": {
+     "name": "context.go",
+     "line": 232
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "parent",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "context"
+   }
+  },
+  {
+   "id": 21420,
+   "attrs": {
+    "name": "init",
+    "label": "(*watcher).init",
+    "pos": {
+     "name": "watch.go",
+     "line": 107
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22201,
+   "attrs": {
+    "name": "NewWatcher",
+    "label": "NewWatcher",
+    "pos": {
+     "name": "backend_kqueue.go",
+     "line": 135
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "fsnotify"
+   }
+  },
+  {
+   "id": 22202,
+   "attrs": {
+    "name": "initStaticFileServer",
+    "label": "(*watcher).initStaticFileServer",
+    "pos": {
+     "name": "watch.go",
+     "line": 120
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 7733,
+   "attrs": {
+    "name": "Caller",
+    "label": "Caller",
+    "pos": {
+     "name": "extern.go",
+     "line": 205
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "skip",
+      "type": "int"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "runtime"
+   }
+  },
+  {
+   "id": 23037,
+   "attrs": {
+    "name": "Sub",
+    "label": "Sub",
+    "pos": {
+     "name": "sub.go",
+     "line": 34
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fsys",
+      "type": "io/fs.FS"
+     },
+     {
+      "name": "dir",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fs"
+   }
+  },
+  {
+   "id": 636,
+   "attrs": {
+    "name": "New",
+    "label": "New",
+    "pos": {
+     "name": "errors.go",
+     "line": 58
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "text",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 11205,
+   "attrs": {
+    "name": "Dir",
+    "label": "Dir",
+    "pos": {
+     "name": "path.go",
+     "line": 592
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "path",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "filepath"
+   }
+  },
+  {
+   "id": 23038,
+   "attrs": {
+    "name": "FileServer",
+    "label": "FileServer",
+    "pos": {
+     "name": "fs.go",
+     "line": 840
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "root",
+      "type": "net/http.FileSystem"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 23039,
+   "attrs": {
+    "name": "FS",
+    "label": "FS",
+    "pos": {
+     "name": "fs.go",
+     "line": 820
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fsys",
+      "type": "io/fs.FS"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 22203,
+   "attrs": {
+    "name": "listen",
+    "label": "(*watcher).listen",
+    "pos": {
+     "name": "watch.go",
+     "line": 388
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 5298,
+   "attrs": {
+    "name": "JoinHostPort",
+    "label": "JoinHostPort",
+    "pos": {
+     "name": "ipsock.go",
+     "line": 235
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "host",
+      "type": "string"
+     },
+     {
+      "name": "port",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 17285,
+   "attrs": {
+    "name": "Listen",
+    "label": "Listen",
+    "pos": {
+     "name": "dial.go",
+     "line": 710
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "network",
+      "type": "string"
+     },
+     {
+      "name": "address",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 24245,
+   "attrs": {
+    "name": "Addr",
+    "label": "(*UnixListener).Addr",
+    "pos": {
+     "name": "unixsock.go",
+     "line": 282
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*net.UnixListener"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 25633,
+   "attrs": {
+    "name": "Addr",
+    "label": "(*TCPListener).Addr",
+    "pos": {
+     "name": "tcpsock.go",
+     "line": 310
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*net.TCPListener"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 21421,
+   "attrs": {
+    "name": "close",
+    "label": "(*watcher).close",
+    "pos": {
+     "name": "watch.go",
+     "line": 157
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 14429,
+   "attrs": {
+    "name": "Close",
+    "label": "(*Watcher).Close",
+    "pos": {
+     "name": "backend_kqueue.go",
+     "line": 215
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "*github.com/fsnotify/fsnotify.Watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "fsnotify"
+   }
+  },
+  {
+   "id": 22204,
+   "attrs": {
+    "name": "setErr",
+    "label": "(*watcher).setErr",
+    "pos": {
+     "name": "watch.go",
+     "line": 179
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "err",
+      "type": "error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 4816,
+   "attrs": {
+    "name": "Wait",
+    "label": "(*WaitGroup).Wait",
+    "pos": {
+     "name": "waitgroup.go",
+     "line": 109
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "wg",
+      "type": "*sync.WaitGroup"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "sync"
+   }
+  },
+  {
+   "id": 3401,
+   "attrs": {
+    "name": "Close",
+    "label": "(*UnixListener).Close",
+    "pos": {
+     "name": "unixsock.go",
+     "line": 269
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*net.UnixListener"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 15245,
+   "attrs": {
+    "name": "Close",
+    "label": "(*TCPListener).Close",
+    "pos": {
+     "name": "tcpsock.go",
+     "line": 297
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*net.TCPListener"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "net"
+   }
+  },
+  {
+   "id": 19384,
+   "attrs": {
+    "name": "run",
+    "label": "(*watcher).run",
+    "pos": {
+     "name": "watch.go",
+     "line": 141
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 21422,
+   "attrs": {
+    "name": "goFunc",
+    "label": "(*watcher).goFunc",
+    "pos": {
+     "name": "watch.go",
+     "line": 187
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "fn",
+      "type": "func(context.Context) error"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22207,
+   "attrs": {
+    "name": "goFunc$1",
+    "label": "(*watcher).goFunc$1",
+    "pos": {
+     "name": "watch.go",
+     "line": 189
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23040,
+   "attrs": {
+    "name": "ensureAddWatch",
+    "label": "(*watcher).ensureAddWatch",
+    "pos": {
+     "name": "watch.go",
+     "line": 291
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23482,
+   "attrs": {
+    "name": "addWatch",
+    "label": "(*watcher).addWatch",
+    "pos": {
+     "name": "watch.go",
+     "line": 319
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 14427,
+   "attrs": {
+    "name": "Add",
+    "label": "(*Watcher).Add",
+    "pos": {
+     "name": "backend_kqueue.go",
+     "line": 270
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "w",
+      "type": "*github.com/fsnotify/fsnotify.Watcher"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "fsnotify"
+   }
+  },
+  {
+   "id": 13842,
+   "attrs": {
+    "name": "Stat",
+    "label": "Stat",
+    "pos": {
+     "name": "stat.go",
+     "line": 11
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "name",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 24716,
+   "attrs": {
+    "name": "ModTime",
+    "label": "(*fileStat).ModTime",
+    "pos": {
+     "name": "types_unix.go",
+     "line": 25
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "fs",
+      "type": "*os.fileStat"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "os"
+   }
+  },
+  {
+   "id": 22206,
+   "attrs": {
+    "name": "watchLoop",
+    "label": "(*watcher).watchLoop",
+    "pos": {
+     "name": "watch.go",
+     "line": 212
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23041,
+   "attrs": {
+    "name": "requestCompile",
+    "label": "(*watcher).requestCompile",
+    "pos": {
+     "name": "watch.go",
+     "line": 284
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23042,
+   "attrs": {
+    "name": "NewTicker",
+    "label": "NewTicker",
+    "pos": {
+     "name": "tick.go",
+     "line": 22
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "d",
+      "type": "time.Duration"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 12562,
+   "attrs": {
+    "name": "Stop",
+    "label": "(*Ticker).Stop",
+    "pos": {
+     "name": "tick.go",
+     "line": 46
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "t",
+      "type": "*time.Ticker"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 2892,
+   "attrs": {
+    "name": "Equal",
+    "label": "(Time).Equal",
+    "pos": {
+     "name": "time.go",
+     "line": 272
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "t",
+      "type": "time.Time"
+     },
+     {
+      "name": "u",
+      "type": "time.Time"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "time"
+   }
+  },
+  {
+   "id": 22209,
+   "attrs": {
+    "name": "compileLoop",
+    "label": "(*watcher).compileLoop",
+    "pos": {
+     "name": "watch.go",
+     "line": 332
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 1410,
+   "attrs": {
+    "name": "RestartBrowser",
+    "label": "(*Playwright).RestartBrowser",
+    "pos": {
+     "name": "png.go",
+     "line": 21
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "pw",
+      "type": "*oss.terrastruct.com/d2/lib/png.Playwright"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "png"
+   }
+  },
+  {
+   "id": 401,
+   "attrs": {
+    "name": "Errorf",
+    "label": "Errorf",
+    "pos": {
+     "name": "errors.go",
+     "line": 17
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "format",
+      "type": "string"
+     },
+     {
+      "name": "a",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 7739,
+   "attrs": {
+    "name": "Print",
+    "label": "(*Logger).Print",
+    "pos": {
+     "name": "log.go",
+     "line": 210
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "l",
+      "type": "*log.Logger"
+     },
+     {
+      "name": "v",
+      "type": "[]any"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "log"
+   }
+  },
+  {
+   "id": 23043,
+   "attrs": {
+    "name": "broadcast",
+    "label": "(*watcher).broadcast",
+    "pos": {
+     "name": "watch.go",
+     "line": 520
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     },
+     {
+      "name": "res",
+      "type": "*oss.terrastruct.com/d2.compileResult"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23044,
+   "attrs": {
+    "name": "Open",
+    "label": "Open",
+    "pos": {
+     "name": "xbrowser.go",
+     "line": 13
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "env",
+      "type": "*oss.terrastruct.com/util-go/xos.Env"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xbrowser"
+   }
+  },
+  {
+   "id": 24387,
+   "attrs": {
+    "name": "Error",
+    "label": "(*wrapError).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 37
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*fmt.wrapError"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "fmt"
+   }
+  },
+  {
+   "id": 24864,
+   "attrs": {
+    "name": "Error",
+    "label": "(*errorString).Error",
+    "pos": {
+     "name": "errors.go",
+     "line": 67
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "e",
+      "type": "*errors.errorString"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "errors"
+   }
+  },
+  {
+   "id": 23052,
+   "attrs": {
+    "name": "goServe$1",
+    "label": "(*watcher).goServe$1",
+    "pos": {
+     "name": "watch.go",
+     "line": 407
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 23053,
+   "attrs": {
+    "name": "Serve",
+    "label": "Serve",
+    "pos": {
+     "name": "serve.go",
+     "line": 25
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "ctx",
+      "type": "context.Context"
+     },
+     {
+      "name": "shutdownTimeout",
+      "type": "time.Duration"
+     },
+     {
+      "name": "s",
+      "type": "*net/http.Server"
+     },
+     {
+      "name": "l",
+      "type": "net.Listener"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 21423,
+   "attrs": {
+    "name": "goServe",
+    "label": "(*watcher).goServe",
+    "pos": {
+     "name": "watch.go",
+     "line": 398
+    },
+    "isFocused": true,
+    "params": [
+     {
+      "name": "w",
+      "type": "*oss.terrastruct.com/d2.watcher"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 22210,
+   "attrs": {
+    "name": "NewServeMux",
+    "label": "NewServeMux",
+    "pos": {
+     "name": "server.go",
+     "line": 2281
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 11219,
+   "attrs": {
+    "name": "HandleFunc",
+    "label": "(*ServeMux).HandleFunc",
+    "pos": {
+     "name": "server.go",
+     "line": 2511
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "mux",
+      "type": "*net/http.ServeMux"
+     },
+     {
+      "name": "pattern",
+      "type": "string"
+     },
+     {
+      "name": "handler",
+      "type": "func(net/http.ResponseWriter, *net/http.Request)"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 22211,
+   "attrs": {
+    "name": "StripPrefix",
+    "label": "StripPrefix",
+    "pos": {
+     "name": "server.go",
+     "line": 2113
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "prefix",
+      "type": "string"
+     },
+     {
+      "name": "h",
+      "type": "net/http.Handler"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 11217,
+   "attrs": {
+    "name": "Handle",
+    "label": "(*ServeMux).Handle",
+    "pos": {
+     "name": "server.go",
+     "line": 2467
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "mux",
+      "type": "*net/http.ServeMux"
+     },
+     {
+      "name": "pattern",
+      "type": "string"
+     },
+     {
+      "name": "handler",
+      "type": "net/http.Handler"
+     }
+    ],
+    "pkgInRoot": true,
+    "pkg": "http"
+   }
+  },
+  {
+   "id": 22212,
+   "attrs": {
+    "name": "Log",
+    "label": "Log",
+    "pos": {
+     "name": "log.go",
+     "line": 78
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "clog",
+      "type": "*oss.terrastruct.com/util-go/cmdlog.Logger"
+     },
+     {
+      "name": "next",
+      "type": "net/http.Handler"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 22213,
+   "attrs": {
+    "name": "NewServer",
+    "label": "NewServer",
+    "pos": {
+     "name": "serve.go",
+     "line": 14
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "log",
+      "type": "*log.Logger"
+     },
+     {
+      "name": "h",
+      "type": "net/http.Handler"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xhttp"
+   }
+  },
+  {
+   "id": 4951,
+   "attrs": {
+    "name": "Main$1",
+    "label": "(*State).Main$1",
+    "pos": {
+     "name": "xmain.go",
+     "line": 89
+    },
+    "isFocused": false,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  },
+  {
+   "id": 45,
+   "attrs": {
+    "name": "main",
+    "label": "main",
+    "pos": {
+     "name": "main.go",
+     "line": 37
+    },
+    "isFocused": true,
+    "params": [],
+    "pkgInRoot": false,
+    "pkg": "main"
+   }
+  },
+  {
+   "id": 46,
+   "attrs": {
+    "name": "Main",
+    "label": "Main",
+    "pos": {
+     "name": "xmain.go",
+     "line": 21
+    },
+    "isFocused": false,
+    "params": [
+     {
+      "name": "run",
+      "type": "oss.terrastruct.com/util-go/xmain.RunFunc"
+     }
+    ],
+    "pkgInRoot": false,
+    "pkg": "xmain"
+   }
+  }
+ ],
+ "Edges": [
+  {
+   "from": 23487,
+   "to": 23718,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 483
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19372,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 145
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19373,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 141
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19378,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 170
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19383,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 193
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 21519,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 212
+    }
+   }
+  },
+  {
+   "from": 23844,
+   "to": 23921,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 517
+    }
+   }
+  },
+  {
+   "from": 19378,
+   "to": 4218,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 147
+    }
+   }
+  },
+  {
+   "from": 21405,
+   "to": 973,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 81
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 474
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19370,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 102
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 11205,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 128
+    }
+   }
+  },
+  {
+   "from": 23052,
+   "to": 23053,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 408
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19364,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 78
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 2892,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 236
+    }
+   }
+  },
+  {
+   "from": 19366,
+   "to": 533,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 39
+    }
+   }
+  },
+  {
+   "from": 22204,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 184
+    }
+   }
+  },
+  {
+   "from": 23043,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 526
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 19375,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 87
+    }
+   }
+  },
+  {
+   "from": 19365,
+   "to": 21404,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 314
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19379,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 175
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 636,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 243
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 19379,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 346
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 310,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 379
+    }
+   }
+  },
+  {
+   "from": 20987,
+   "to": 23048,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "err.go",
+     "line": 93
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19367,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 97
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 19377,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 90
+    }
+   }
+  },
+  {
+   "from": 21405,
+   "to": 21409,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 54
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 10536,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 258
+    }
+   }
+  },
+  {
+   "from": 23844,
+   "to": 10528,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 514
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 19379,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 271
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 9401,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 46
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21419,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 280
+    }
+   }
+  },
+  {
+   "from": 23482,
+   "to": 13842,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 325
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 3040,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 455
+    }
+   }
+  },
+  {
+   "from": 23482,
+   "to": 14427,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 320
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 5737,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 220
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 23043,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 351
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 401,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 217
+    }
+   }
+  },
+  {
+   "from": 22204,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 180
+    }
+   }
+  },
+  {
+   "from": 23718,
+   "to": 4890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 506
+    }
+   }
+  },
+  {
+   "from": 23046,
+   "to": 126,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 422
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 5247,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 105
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 23482,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 296
+    }
+   }
+  },
+  {
+   "from": 23043,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 521
+    }
+   }
+  },
+  {
+   "from": 23718,
+   "to": 4892,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 508
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19368,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 98
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 4957,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 290
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 4892,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 279
+    }
+   }
+  },
+  {
+   "from": 23046,
+   "to": 25485,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 421
+    }
+   }
+  },
+  {
+   "from": 23046,
+   "to": 25989,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 421
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19380,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 176
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 3040,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 190
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 4890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 278
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 21517,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 212
+    }
+   }
+  },
+  {
+   "from": 23717,
+   "to": 4890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 554
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 4954,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 26
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 310,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 170
+    }
+   }
+  },
+  {
+   "from": 19383,
+   "to": 21420,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 100
+    }
+   }
+  },
+  {
+   "from": 21422,
+   "to": 3037,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 188
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 23040,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 213
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 22209,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 193
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 13191,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 164
+    }
+   }
+  },
+  {
+   "from": 17765,
+   "to": 23046,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "server.go",
+     "line": 2084
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 21519,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 464
+    }
+   }
+  },
+  {
+   "from": 19377,
+   "to": 21409,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 116
+    }
+   }
+  },
+  {
+   "from": 19384,
+   "to": 21421,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 142
+    }
+   }
+  },
+  {
+   "from": 19384,
+   "to": 21422,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 144
+    }
+   }
+  },
+  {
+   "from": 23844,
+   "to": 21474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 515
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21417,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 267
+    }
+   }
+  },
+  {
+   "from": 19383,
+   "to": 1090,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 87
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19369,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 100
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 4836,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 89
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 22204,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 169
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 7739,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 350
+    }
+   }
+  },
+  {
+   "from": 23844,
+   "to": 21517,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 515
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 4954,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 226
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 10528,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 211
+    }
+   }
+  },
+  {
+   "from": 23717,
+   "to": 5737,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 543
+    }
+   }
+  },
+  {
+   "from": 21420,
+   "to": 22201,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 108
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 22212,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 406
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 22213,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 406
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 10528,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 463
+    }
+   }
+  },
+  {
+   "from": 19378,
+   "to": 532,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 148
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 10532,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 95
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19363,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 43
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 21408,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 31
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 21474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 212
+    }
+   }
+  },
+  {
+   "from": 23718,
+   "to": 23843,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 496
+    }
+   }
+  },
+  {
+   "from": 23043,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 531
+    }
+   }
+  },
+  {
+   "from": 23046,
+   "to": 14216,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 421
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 310,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 102
+    }
+   }
+  },
+  {
+   "from": 19366,
+   "to": 126,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 18
+    }
+   }
+  },
+  {
+   "from": 21405,
+   "to": 19378,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 63
+    }
+   }
+  },
+  {
+   "from": 23843,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 416
+    }
+   }
+  },
+  {
+   "from": 23718,
+   "to": 13918,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 507
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 4008,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 16
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19377,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 154
+    }
+   }
+  },
+  {
+   "from": 22203,
+   "to": 5298,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 389
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 22206,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 193
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 19382,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 359
+    }
+   }
+  },
+  {
+   "from": 23718,
+   "to": 23844,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 498
+    }
+   }
+  },
+  {
+   "from": 23482,
+   "to": 24716,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 329
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 4890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 313
+    }
+   }
+  },
+  {
+   "from": 21420,
+   "to": 22202,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 113
+    }
+   }
+  },
+  {
+   "from": 19363,
+   "to": 19300,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 310
+    }
+   }
+  },
+  {
+   "from": 19365,
+   "to": 6689,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 322
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 22178,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 143
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 633,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 37
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21416,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 266
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 13918,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 461
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 23038,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 129
+    }
+   }
+  },
+  {
+   "from": 23716,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 476
+    }
+   }
+  },
+  {
+   "from": 19370,
+   "to": 21406,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 46
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 217
+    }
+   }
+  },
+  {
+   "from": 19384,
+   "to": 21421,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 153
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 126,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 108
+    }
+   }
+  },
+  {
+   "from": 23843,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 415
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 19378,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 102
+    }
+   }
+  },
+  {
+   "from": 19366,
+   "to": 6440,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 39
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 7733,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 123
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 532,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 128
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 3401,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 172
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 22211,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 403
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 441
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 4838,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 95
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21415,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 263
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 15245,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 172
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 23042,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 222
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 1410,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 347
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 23717,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": true,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 482
+    }
+   }
+  },
+  {
+   "from": 23043,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 523
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 370
+    }
+   }
+  },
+  {
+   "from": 19384,
+   "to": 21423,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 147
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 4838,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 164
+    }
+   }
+  },
+  {
+   "from": 45,
+   "to": 46,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 38
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21413,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 245
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19374,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 147
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19381,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 180
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 21474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 166
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 21517,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 464
+    }
+   }
+  },
+  {
+   "from": 19377,
+   "to": 973,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 129
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 160
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 12285,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 304
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 22210,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 399
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 23486,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 451
+    }
+   }
+  },
+  {
+   "from": 22203,
+   "to": 17285,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 389
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 5737,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 293
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 301
+    }
+   }
+  },
+  {
+   "from": 19373,
+   "to": 19379,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 300
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19376,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 159
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 4890,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 337
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 4836,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 20
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19375,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 151
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21414,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 250
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 23044,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 380
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 13920,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 481
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 19367,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 142
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 24864,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 352
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 6691,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 87
+    }
+   }
+  },
+  {
+   "from": 21405,
+   "to": 310,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 61
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 5968,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 109
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 158
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 4816,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 176
+    }
+   }
+  },
+  {
+   "from": 21422,
+   "to": 22207,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": true,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 189
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 19368,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 86
+    }
+   }
+  },
+  {
+   "from": 22203,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 394
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 608,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 89
+    }
+   }
+  },
+  {
+   "from": 19378,
+   "to": 1789,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 148
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 6439,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 18
+    }
+   }
+  },
+  {
+   "from": 23046,
+   "to": 5021,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 421
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 636,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 125
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 3040,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 460
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 6091,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 50
+    }
+   }
+  },
+  {
+   "from": 19369,
+   "to": 19380,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 329
+    }
+   }
+  },
+  {
+   "from": 22203,
+   "to": 24245,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 394
+    }
+   }
+  },
+  {
+   "from": 21420,
+   "to": 22203,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 117
+    }
+   }
+  },
+  {
+   "from": 19384,
+   "to": 4816,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 152
+    }
+   }
+  },
+  {
+   "from": 23844,
+   "to": 21519,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 515
+    }
+   }
+  },
+  {
+   "from": 19378,
+   "to": 19344,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 147
+    }
+   }
+  },
+  {
+   "from": 19370,
+   "to": 21407,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 48
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 1790,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 31
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 5933,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 192
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 4892,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 338
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 21422,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 407
+    }
+   }
+  },
+  {
+   "from": 23717,
+   "to": 13918,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 541
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 4957,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 38
+    }
+   }
+  },
+  {
+   "from": 19370,
+   "to": 19367,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 43
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19365,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 82
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 608,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 88
+    }
+   }
+  },
+  {
+   "from": 19369,
+   "to": 1408,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 333
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 4952,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 149
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 13195,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 258
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 3037,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 448
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 19377,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 137
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 11219,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 402
+    }
+   }
+  },
+  {
+   "from": 19365,
+   "to": 6090,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 320
+    }
+   }
+  },
+  {
+   "from": 23717,
+   "to": 13922,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 546
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 4842,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 258
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19382,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 214
+    }
+   }
+  },
+  {
+   "from": 21421,
+   "to": 14429,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 168
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 23485,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 442
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 12285,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 269
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 23052,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 193
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19366,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 93
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19371,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 104
+    }
+   }
+  },
+  {
+   "from": 23040,
+   "to": 4892,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 314
+    }
+   }
+  },
+  {
+   "from": 23716,
+   "to": 594,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 478
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 25633,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 379
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 23487,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": true,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 459
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21412,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 231
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 23039,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 137
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 24245,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 379
+    }
+   }
+  },
+  {
+   "from": 21405,
+   "to": 126,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 67
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 20857,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 36
+    }
+   }
+  },
+  {
+   "from": 19381,
+   "to": 1408,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 181
+    }
+   }
+  },
+  {
+   "from": 21423,
+   "to": 11217,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 403
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 10532,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 164
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 6092,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 61
+    }
+   }
+  },
+  {
+   "from": 19363,
+   "to": 21402,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 310
+    }
+   }
+  },
+  {
+   "from": 22203,
+   "to": 25633,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 394
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 22204,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 194
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 12562,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 223
+    }
+   }
+  },
+  {
+   "from": 4951,
+   "to": 19362,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "xmain.go",
+     "line": 91
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 472
+    }
+   }
+  },
+  {
+   "from": 23717,
+   "to": 12285,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 551
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 19375,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 134
+    }
+   }
+  },
+  {
+   "from": 22207,
+   "to": 21474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 191
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 401,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 349
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 19384,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "main.go",
+     "line": 208
+    }
+   }
+  },
+  {
+   "from": 23048,
+   "to": 592,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 439
+    }
+   }
+  },
+  {
+   "from": 21406,
+   "to": 13191,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 95
+    }
+   }
+  },
+  {
+   "from": 19363,
+   "to": 19301,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 310
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 23432,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 143
+    }
+   }
+  },
+  {
+   "from": 19362,
+   "to": 18534,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 115
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 23716,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 475
+    }
+   }
+  },
+  {
+   "from": 19382,
+   "to": 21418,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 272
+    }
+   }
+  },
+  {
+   "from": 19371,
+   "to": 19367,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "fmt.go",
+     "line": 18
+    }
+   }
+  },
+  {
+   "from": 19377,
+   "to": 4836,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 125
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 608,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 136
+    }
+   }
+  },
+  {
+   "from": 19373,
+   "to": 9209,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "main.go",
+     "line": 304
+    }
+   }
+  },
+  {
+   "from": 19370,
+   "to": 21405,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "help.go",
+     "line": 44
+    }
+   }
+  },
+  {
+   "from": 22202,
+   "to": 23037,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 133
+    }
+   }
+  },
+  {
+   "from": 22206,
+   "to": 23041,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": false,
+    "pos": {
+     "name": "watch.go",
+     "line": 218
+    }
+   }
+  },
+  {
+   "from": 23487,
+   "to": 21474,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": true,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 464
+    }
+   }
+  },
+  {
+   "from": 22209,
+   "to": 24387,
+   "attrs": {
+    "isDynamic": true,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "watch.go",
+     "line": 352
+    }
+   }
+  },
+  {
+   "from": 21407,
+   "to": 19368,
+   "attrs": {
+    "isDynamic": false,
+    "isGo": false,
+    "isDefer": false,
+    "isOutside": true,
+    "pos": {
+     "name": "help.go",
+     "line": 133
+    }
+   }
+  }
+ ],
+ "Packages": [
+  {
+   "path": "oss.terrastruct.com/d2/d2plugin",
+   "name": "d2plugin"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/lib/textmeasure",
+   "name": "textmeasure"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2lib",
+   "name": "d2lib"
+  },
+  {
+   "path": "oss.terrastruct.com/d2",
+   "name": "main"
+  },
+  {
+   "path": "nhooyr.io/websocket/wsjson",
+   "name": "wsjson"
+  },
+  {
+   "path": "net/http",
+   "name": "http"
+  },
+  {
+   "path": "strings",
+   "name": "strings"
+  },
+  {
+   "path": "os",
+   "name": "os"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/lib/png",
+   "name": "png"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2parser",
+   "name": "d2parser"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/lib/imgbundler",
+   "name": "imgbundler"
+  },
+  {
+   "path": "errors",
+   "name": "errors"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/xdefer",
+   "name": "xdefer"
+  },
+  {
+   "path": "context",
+   "name": "context"
+  },
+  {
+   "path": "cdr.dev/slog/sloggers/sloghuman",
+   "name": "sloghuman"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/lib/log",
+   "name": "log"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2renderers/d2svg/appendix",
+   "name": "appendix"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/xbrowser",
+   "name": "xbrowser"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/xhttp",
+   "name": "xhttp"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/xmain",
+   "name": "xmain"
+  },
+  {
+   "path": "path/filepath",
+   "name": "filepath"
+  },
+  {
+   "path": "bytes",
+   "name": "bytes"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2renderers/d2svg",
+   "name": "d2svg"
+  },
+  {
+   "path": "go.uber.org/multierr",
+   "name": "multierr"
+  },
+  {
+   "path": "github.com/fsnotify/fsnotify",
+   "name": "fsnotify"
+  },
+  {
+   "path": "runtime",
+   "name": "runtime"
+  },
+  {
+   "path": "net",
+   "name": "net"
+  },
+  {
+   "path": "io/fs",
+   "name": "fs"
+  },
+  {
+   "path": "time",
+   "name": "time"
+  },
+  {
+   "path": "cdr.dev/slog",
+   "name": "slog"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2themes/d2themescatalog",
+   "name": "d2themescatalog"
+  },
+  {
+   "path": "sync",
+   "name": "sync"
+  },
+  {
+   "path": "nhooyr.io/websocket",
+   "name": "websocket"
+  },
+  {
+   "path": "fmt",
+   "name": "fmt"
+  },
+  {
+   "path": "github.com/spf13/pflag",
+   "name": "pflag"
+  },
+  {
+   "path": "oss.terrastruct.com/d2/d2format",
+   "name": "d2format"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/xos",
+   "name": "xos"
+  },
+  {
+   "path": "oss.terrastruct.com/util-go/cmdlog",
+   "name": "cmdlog"
+  }
+ ]
+}
